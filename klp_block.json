@@ -1,0 +1,1147 @@
+{
+    "dashboards": [
+        {
+            "__Dashboard__": {
+                "dashboard_title": "Block Performance", 
+                "slug": null, 
+                "json_metadata": "{\"expanded_slices\": {}, \"filter_immune_slice_fields\": {}, \"filter_immune_slices\": [], \"remote_id\": 4, \"import_time\": 1500908240}", 
+                "description": null, 
+                "slices": [
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null, 
+                            "datasource_id": 10, 
+                            "viz_type": "filter_box", 
+                            "slice_name": "District Filter", 
+                            "perm": "[klp].[j-klp-Untitled Query-rkz0FnZT7Z](id:10)", 
+                            "datasource_type": "table", 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:22"
+                            }, 
+                            "params": "{\"metric\": \"sum__perf\", \"since\": \"100 years ago\", \"viz_type\": \"filter_box\", \"date_filter\": false, \"remote_id\": 71, \"groupby\": [\"District\"], \"datasource\": \"16__table\", \"until\": \"now\", \"datasource_name\": \"j-klp-Untitled Query-rkz0FnZT7Z\", \"database_name\": \"klp\", \"granularity_sqla\": null, \"schema\": \"j-klp-Untitled Query-rkz0FnZT7Z\", \"time_grain_sqla\": null, \"adhoc_filters\": [], \"import_time\": 1500908240, \"instant_filtering\": true}", 
+                            "changed_by_fk": 1, 
+                            "datasource_name": "j-klp-Untitled Query-rkz0FnZT7Z", 
+                            "created_by_fk": 1, 
+                            "id": 71, 
+                            "changed_on": {
+                                "__datetime__": "2018-07-30T23:26:36"
+                            }, 
+                            "description": null
+                        }
+                    }, 
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null, 
+                            "datasource_id": 9, 
+                            "viz_type": "filter_box", 
+                            "slice_name": "Block Filter", 
+                            "perm": "[klp].[Untitled Query-r1geuuB8EW](id:9)", 
+                            "datasource_type": "table", 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:22"
+                            }, 
+                            "params": "{\"metric\": \"sum__perf\", \"since\": \"100 years ago\", \"viz_type\": \"filter_box\", \"date_filter\": false, \"remote_id\": 72, \"groupby\": [\"Block\"], \"datasource\": \"28__table\", \"until\": \"now\", \"datasource_name\": \"Untitled Query-r1geuuB8EW\", \"database_name\": \"klp\", \"granularity_sqla\": null, \"schema\": \"Untitled Query-r1geuuB8EW\", \"time_grain_sqla\": null, \"adhoc_filters\": [], \"import_time\": 1500908240, \"instant_filtering\": true}", 
+                            "changed_by_fk": 1, 
+                            "datasource_name": "Untitled Query-r1geuuB8EW", 
+                            "created_by_fk": 1, 
+                            "id": 72, 
+                            "changed_on": {
+                                "__datetime__": "2018-07-30T23:26:36"
+                            }, 
+                            "description": null
+                        }
+                    }, 
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null, 
+                            "datasource_id": 9, 
+                            "viz_type": "filter_box", 
+                            "slice_name": "Village Filter", 
+                            "perm": "[klp].[Untitled Query-r1geuuB8EW](id:9)", 
+                            "datasource_type": "table", 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:22"
+                            }, 
+                            "params": "{\"metric\": \"sum__perf\", \"since\": \"100 years ago\", \"viz_type\": \"filter_box\", \"date_filter\": false, \"remote_id\": 73, \"groupby\": [\"Village\"], \"datasource\": \"28__table\", \"until\": \"now\", \"datasource_name\": \"Untitled Query-r1geuuB8EW\", \"database_name\": \"klp\", \"granularity_sqla\": null, \"schema\": \"Untitled Query-r1geuuB8EW\", \"time_grain_sqla\": null, \"adhoc_filters\": [], \"import_time\": 1500908240, \"instant_filtering\": true}", 
+                            "changed_by_fk": 1, 
+                            "datasource_name": "Untitled Query-r1geuuB8EW", 
+                            "created_by_fk": 1, 
+                            "id": 73, 
+                            "changed_on": {
+                                "__datetime__": "2018-07-30T23:26:36"
+                            }, 
+                            "description": null
+                        }
+                    }, 
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null, 
+                            "datasource_id": 11, 
+                            "viz_type": "directed_force", 
+                            "slice_name": "District & Block Performance - Layout Chart", 
+                            "perm": "[klp].[Untitled Query-H1XHkmDI4b](id:11)", 
+                            "datasource_type": "table", 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:22"
+                            }, 
+                            "params": "{\"metric\": \"sum__normalized_perf\", \"since\": \"100 years ago\", \"link_length\": \"75\", \"viz_type\": \"directed_force\", \"row_limit\": 50, \"database_name\": \"klp\", \"remote_id\": 74, \"groupby\": [\"District\", \"Block\"], \"charge\": \"-500\", \"datasource\": \"34__table\", \"until\": \"now\", \"datasource_name\": \"Untitled Query-H1XHkmDI4b\", \"adhoc_filters\": [], \"time_grain_sqla\": null, \"granularity_sqla\": null, \"import_time\": 1500908240, \"schema\": \"Untitled Query-H1XHkmDI4b\"}", 
+                            "changed_by_fk": 1, 
+                            "datasource_name": "Untitled Query-H1XHkmDI4b", 
+                            "created_by_fk": 1, 
+                            "id": 74, 
+                            "changed_on": {
+                                "__datetime__": "2018-07-30T23:26:36"
+                            }, 
+                            "description": null
+                        }
+                    }, 
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null, 
+                            "datasource_id": 7, 
+                            "viz_type": "table", 
+                            "slice_name": "Performance By Block & Village", 
+                            "perm": "[klp].[j-klp-Untitled Query-r17CLplqEb](id:7)", 
+                            "datasource_type": "table", 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:22"
+                            }, 
+                            "params": "{\"since\": \"100 years ago\", \"include_time\": false, \"row_limit\": null, \"table_filter\": true, \"granularity_sqla\": null, \"page_length\": 0, \"all_columns\": [], \"viz_type\": \"table\", \"remote_id\": 75, \"until\": \"now\", \"schema\": \"j-klp-Untitled Query-r17CLplqEb\", \"metrics\": [\"sum__Performance\"], \"adhoc_filters\": [], \"include_search\": true, \"database_name\": \"klp\", \"order_by_cols\": [], \"datasource\": \"38__table\", \"table_timestamp_format\": \"smart_date\", \"datasource_name\": \"j-klp-Untitled Query-r17CLplqEb\", \"time_grain_sqla\": null, \"groupby\": [\"Block\", \"Village\"], \"import_time\": 1500908240}", 
+                            "changed_by_fk": 1, 
+                            "datasource_name": "j-klp-Untitled Query-r17CLplqEb", 
+                            "created_by_fk": 1, 
+                            "id": 75, 
+                            "changed_on": {
+                                "__datetime__": "2018-07-30T23:26:36"
+                            }, 
+                            "description": null
+                        }
+                    }
+                ], 
+                "position_json": "{\n  \"DASHBOARD_CHART_TYPE-1dac28b4\": {\n    \"meta\": {\n      \"chartId\": 72, \n      \"width\": 4, \n      \"height\": 13\n    }, \n    \"type\": \"DASHBOARD_CHART_TYPE\", \n    \"id\": \"DASHBOARD_CHART_TYPE-1dac28b4\", \n    \"children\": []\n  }, \n  \"DASHBOARD_CHART_TYPE-77b6b267\": {\n    \"meta\": {\n      \"chartId\": 75, \n      \"width\": 6, \n      \"height\": 88\n    }, \n    \"type\": \"DASHBOARD_CHART_TYPE\", \n    \"id\": \"DASHBOARD_CHART_TYPE-77b6b267\", \n    \"children\": []\n  }, \n  \"DASHBOARD_CHART_TYPE-b2f7c416\": {\n    \"meta\": {\n      \"chartId\": 71, \n      \"width\": 4, \n      \"height\": 13\n    }, \n    \"type\": \"DASHBOARD_CHART_TYPE\", \n    \"id\": \"DASHBOARD_CHART_TYPE-b2f7c416\", \n    \"children\": []\n  }, \n  \"DASHBOARD_CHART_TYPE-e922628a\": {\n    \"meta\": {\n      \"chartId\": 74, \n      \"width\": 6, \n      \"height\": 88\n    }, \n    \"type\": \"DASHBOARD_CHART_TYPE\", \n    \"id\": \"DASHBOARD_CHART_TYPE-e922628a\", \n    \"children\": []\n  }, \n  \"DASHBOARD_CHART_TYPE-edc024ea\": {\n    \"meta\": {\n      \"chartId\": 73, \n      \"width\": 4, \n      \"height\": 13\n    }, \n    \"type\": \"DASHBOARD_CHART_TYPE\", \n    \"id\": \"DASHBOARD_CHART_TYPE-edc024ea\", \n    \"children\": []\n  }, \n  \"DASHBOARD_GRID_ID\": {\n    \"type\": \"DASHBOARD_GRID_TYPE\", \n    \"id\": \"DASHBOARD_GRID_ID\", \n    \"children\": [\n      \"DASHBOARD_ROW_TYPE-a8812ac9\", \n      \"DASHBOARD_ROW_TYPE-126ad69b\"\n    ]\n  }, \n  \"DASHBOARD_HEADER_ID\": {\n    \"meta\": {\n      \"text\": \"Block Performance\"\n    }, \n    \"type\": \"DASHBOARD_HEADER_TYPE\", \n    \"id\": \"DASHBOARD_HEADER_ID\"\n  }, \n  \"DASHBOARD_ROOT_ID\": {\n    \"type\": \"DASHBOARD_ROOT_TYPE\", \n    \"id\": \"DASHBOARD_ROOT_ID\", \n    \"children\": [\n      \"DASHBOARD_GRID_ID\"\n    ]\n  }, \n  \"DASHBOARD_ROW_TYPE-126ad69b\": {\n    \"meta\": {\n      \"background\": \"BACKGROUND_TRANSPARENT\"\n    }, \n    \"type\": \"DASHBOARD_ROW_TYPE\", \n    \"id\": \"DASHBOARD_ROW_TYPE-126ad69b\", \n    \"children\": [\n      \"DASHBOARD_CHART_TYPE-e922628a\", \n      \"DASHBOARD_CHART_TYPE-77b6b267\"\n    ]\n  }, \n  \"DASHBOARD_ROW_TYPE-a8812ac9\": {\n    \"meta\": {\n      \"background\": \"BACKGROUND_TRANSPARENT\"\n    }, \n    \"type\": \"DASHBOARD_ROW_TYPE\", \n    \"id\": \"DASHBOARD_ROW_TYPE-a8812ac9\", \n    \"children\": [\n      \"DASHBOARD_CHART_TYPE-b2f7c416\", \n      \"DASHBOARD_CHART_TYPE-1dac28b4\", \n      \"DASHBOARD_CHART_TYPE-edc024ea\"\n    ]\n  }, \n  \"DASHBOARD_VERSION_KEY\": \"v2\"\n}", 
+                "created_on": {
+                    "__datetime__": "2017-07-24T20:27:22"
+                }, 
+                "changed_on": {
+                    "__datetime__": "2017-07-24T20:27:22"
+                }, 
+                "changed_by_fk": 1, 
+                "created_by_fk": 1, 
+                "id": 4, 
+                "css": ""
+            }
+        }
+    ], 
+    "datasources": [
+        {
+            "__SqlaTable__": {
+                "is_featured": false, 
+                "offset": 0, 
+                "main_dttm_col": null, 
+                "created_on": {
+                    "__datetime__": "2017-07-24T20:27:21"
+                }, 
+                "created_by_fk": 1, 
+                "id": 11, 
+                "changed_on": {
+                    "__datetime__": "2017-07-24T20:27:21"
+                }, 
+                "template_params": null, 
+                "cache_timeout": null, 
+                "user_id": null, 
+                "default_endpoint": null, 
+                "perm": "[klp].[Untitled Query-H1XHkmDI4b](id:11)", 
+                "params": "{\"database_name\": \"klp\", \"remote_id\": 11, \"import_time\": 1500908240}", 
+                "filter_select_enabled": false, 
+                "changed_by_fk": 1, 
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "avg": false, 
+                            "id": 396, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": true, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "Gender", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "STRING", 
+                            "table_id": 11, 
+                            "expression": "", 
+                            "groupby": true, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "avg": false, 
+                            "id": 397, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": false, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "normalized_perf", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "INT", 
+                            "table_id": 11, 
+                            "expression": "", 
+                            "groupby": false, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "avg": false, 
+                            "id": 398, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": false, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "perf", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "INT", 
+                            "table_id": 11, 
+                            "expression": "", 
+                            "groupby": false, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "avg": false, 
+                            "id": 399, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": false, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "child_count", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "INT", 
+                            "table_id": 11, 
+                            "expression": "", 
+                            "groupby": false, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "avg": false, 
+                            "id": 400, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": true, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "District", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "STRING", 
+                            "table_id": 11, 
+                            "expression": "", 
+                            "groupby": true, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "avg": false, 
+                            "id": 401, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": false, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "dummy_perf", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "INT", 
+                            "table_id": 11, 
+                            "expression": "", 
+                            "groupby": false, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "avg": false, 
+                            "id": 402, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": true, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "Block", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "STRING", 
+                            "table_id": 11, 
+                            "expression": "", 
+                            "groupby": true, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "avg": false, 
+                            "id": 403, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": true, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "Village", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "STRING", 
+                            "table_id": 11, 
+                            "expression": "", 
+                            "groupby": true, 
+                            "count_distinct": false
+                        }
+                    }
+                ], 
+                "schema": null, 
+                "fetch_values_predicate": null, 
+                "description": null, 
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "description": null, 
+                            "d3format": null, 
+                            "verbose_name": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "warning_text": null, 
+                            "table_id": 11, 
+                            "changed_by_fk": 1, 
+                            "metric_type": null, 
+                            "is_restricted": false, 
+                            "created_by_fk": 1, 
+                            "expression": "sum(normalized_perf)", 
+                            "id": 709, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "metric_name": "sum__normalized_perf"
+                        }
+                    }, 
+                    {
+                        "__SqlMetric__": {
+                            "description": null, 
+                            "d3format": null, 
+                            "verbose_name": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "warning_text": null, 
+                            "table_id": 11, 
+                            "changed_by_fk": 1, 
+                            "metric_type": null, 
+                            "is_restricted": false, 
+                            "created_by_fk": 1, 
+                            "expression": "sum(perf)", 
+                            "id": 710, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "metric_name": "sum__perf"
+                        }
+                    }, 
+                    {
+                        "__SqlMetric__": {
+                            "description": null, 
+                            "d3format": null, 
+                            "verbose_name": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "warning_text": null, 
+                            "table_id": 11, 
+                            "changed_by_fk": 1, 
+                            "metric_type": null, 
+                            "is_restricted": false, 
+                            "created_by_fk": 1, 
+                            "expression": "sum(child_count)", 
+                            "id": 711, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "metric_name": "sum__child_count"
+                        }
+                    }, 
+                    {
+                        "__SqlMetric__": {
+                            "description": null, 
+                            "d3format": null, 
+                            "verbose_name": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "warning_text": null, 
+                            "table_id": 11, 
+                            "changed_by_fk": 1, 
+                            "metric_type": null, 
+                            "is_restricted": false, 
+                            "created_by_fk": 1, 
+                            "expression": "sum(dummy_perf)", 
+                            "id": 712, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "metric_name": "sum__dummy_perf"
+                        }
+                    }
+                ], 
+                "sql": "select \"District\",\n          \"Block\",\n          \"Village\",\n          Sum(Total) as perf,\n          Sum(Total) as dummy_perf,\n          Count(\"Village\") as child_count,\n          Sum(Total) / Count(\"Village\") as normalized_perf,\n          TRIM(LOWER(\"Sex ( Male / Female )\")) As Gender\n   from classes\n   GROUP BY \"District\", \"Block\", \"Village\", TRIM(LOWER(\"Sex ( Male / Female )\"))", 
+                "database": {
+                    "__Database__": {
+                        "allow_run_sync": true, 
+                        "allow_ctas": false, 
+                        "extra": "{\r\n    \"metadata_params\": {},\r\n    \"engine_params\": {}\r\n}\r\n", 
+                        "created_on": {
+                            "__datetime__": "2017-07-24T19:44:03"
+                        }, 
+                        "created_by_fk": 1, 
+                        "id": 2, 
+                        "allow_csv_upload": true, 
+                        "cache_timeout": null, 
+                        "allow_multi_schema_metadata_fetch": null, 
+                        "perm": "[klp].(id:2)", 
+                        "changed_on": {
+                            "__datetime__": "2017-07-24T19:57:09"
+                        }, 
+                        "changed_by_fk": 1, 
+                        "verbose_name": null, 
+                        "expose_in_sqllab": true, 
+                        "allow_dml": false, 
+                        "allow_run_async": false, 
+                        "password": null, 
+                        "select_as_create_table_as": false, 
+                        "database_name": "klp", 
+                        "sqlalchemy_uri": "sqlite:////home/gaurav/code/datakind/karnataka-learning-patnership/klp_class_combined.sqlite", 
+                        "impersonate_user": null, 
+                        "force_ctas_schema": ""
+                    }
+                }, 
+                "database_id": 2, 
+                "table_name": "Untitled Query-H1XHkmDI4b", 
+                "is_sqllab_view": true
+            }
+        }, 
+        {
+            "__SqlaTable__": {
+                "is_featured": false, 
+                "offset": 0, 
+                "main_dttm_col": null, 
+                "created_on": {
+                    "__datetime__": "2017-07-24T20:27:21"
+                }, 
+                "created_by_fk": 1, 
+                "id": 9, 
+                "changed_on": {
+                    "__datetime__": "2017-07-24T20:27:21"
+                }, 
+                "template_params": null, 
+                "cache_timeout": null, 
+                "user_id": null, 
+                "default_endpoint": null, 
+                "perm": "[klp].[Untitled Query-r1geuuB8EW](id:9)", 
+                "params": "{\"database_name\": \"klp\", \"remote_id\": 9, \"import_time\": 1500908240}", 
+                "filter_select_enabled": false, 
+                "changed_by_fk": 1, 
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "avg": false, 
+                            "id": 388, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": true, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "Gender", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "STRING", 
+                            "table_id": 9, 
+                            "expression": "", 
+                            "groupby": true, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "avg": false, 
+                            "id": 389, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": true, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "District", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "STRING", 
+                            "table_id": 9, 
+                            "expression": "", 
+                            "groupby": true, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "avg": false, 
+                            "id": 390, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": true, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "Village", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "STRING", 
+                            "table_id": 9, 
+                            "expression": "", 
+                            "groupby": true, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "avg": false, 
+                            "id": 391, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": false, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "perf", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "FLOAT", 
+                            "table_id": 9, 
+                            "expression": "", 
+                            "groupby": false, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "avg": false, 
+                            "id": 392, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": true, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "Block", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "STRING", 
+                            "table_id": 9, 
+                            "expression": "", 
+                            "groupby": true, 
+                            "count_distinct": false
+                        }
+                    }
+                ], 
+                "schema": null, 
+                "fetch_values_predicate": null, 
+                "description": null, 
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "description": null, 
+                            "d3format": null, 
+                            "verbose_name": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "warning_text": null, 
+                            "table_id": 9, 
+                            "changed_by_fk": 1, 
+                            "metric_type": null, 
+                            "is_restricted": false, 
+                            "created_by_fk": 1, 
+                            "expression": "sum(perf)", 
+                            "id": 707, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "metric_name": "sum__perf"
+                        }
+                    }
+                ], 
+                "sql": "select \"District\", \"Block\", \"Village\",\n          TRIM(LOWER(\"Sex ( Male / Female )\")) As Gender,\n          AVG(Total) As perf\nfrom classes\nGROUP BY \"District\", \"Block\", \"Village\", TRIM(LOWER(\"Sex ( Male / Female )\"))", 
+                "database": {
+                    "__Database__": {
+                        "allow_run_sync": true, 
+                        "allow_ctas": false, 
+                        "extra": "{\r\n    \"metadata_params\": {},\r\n    \"engine_params\": {}\r\n}\r\n", 
+                        "created_on": {
+                            "__datetime__": "2017-07-24T19:44:03"
+                        }, 
+                        "created_by_fk": 1, 
+                        "id": 2, 
+                        "allow_csv_upload": true, 
+                        "cache_timeout": null, 
+                        "allow_multi_schema_metadata_fetch": null, 
+                        "perm": "[klp].(id:2)", 
+                        "changed_on": {
+                            "__datetime__": "2017-07-24T19:57:09"
+                        }, 
+                        "changed_by_fk": 1, 
+                        "verbose_name": null, 
+                        "expose_in_sqllab": true, 
+                        "allow_dml": false, 
+                        "allow_run_async": false, 
+                        "password": null, 
+                        "select_as_create_table_as": false, 
+                        "database_name": "klp", 
+                        "sqlalchemy_uri": "sqlite:////home/gaurav/code/datakind/karnataka-learning-patnership/klp_class_combined.sqlite", 
+                        "impersonate_user": null, 
+                        "force_ctas_schema": ""
+                    }
+                }, 
+                "database_id": 2, 
+                "table_name": "Untitled Query-r1geuuB8EW", 
+                "is_sqllab_view": true
+            }
+        }, 
+        {
+            "__SqlaTable__": {
+                "is_featured": false, 
+                "offset": 0, 
+                "main_dttm_col": null, 
+                "created_on": {
+                    "__datetime__": "2017-07-24T20:27:21"
+                }, 
+                "created_by_fk": 1, 
+                "id": 10, 
+                "changed_on": {
+                    "__datetime__": "2017-07-24T20:27:21"
+                }, 
+                "template_params": null, 
+                "cache_timeout": null, 
+                "user_id": null, 
+                "default_endpoint": null, 
+                "perm": "[klp].[j-klp-Untitled Query-rkz0FnZT7Z](id:10)", 
+                "params": "{\"database_name\": \"klp\", \"remote_id\": 10, \"import_time\": 1500908240}", 
+                "filter_select_enabled": false, 
+                "changed_by_fk": 1, 
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "avg": false, 
+                            "id": 393, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": false, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "perf", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "FLOAT", 
+                            "table_id": 10, 
+                            "expression": "", 
+                            "groupby": false, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "avg": false, 
+                            "id": 394, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": true, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "Gender", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "STRING", 
+                            "table_id": 10, 
+                            "expression": "", 
+                            "groupby": true, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "avg": false, 
+                            "id": 395, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": true, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "District", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "STRING", 
+                            "table_id": 10, 
+                            "expression": "", 
+                            "groupby": true, 
+                            "count_distinct": false
+                        }
+                    }
+                ], 
+                "schema": null, 
+                "fetch_values_predicate": null, 
+                "description": null, 
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "description": null, 
+                            "d3format": null, 
+                            "verbose_name": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "warning_text": null, 
+                            "table_id": 10, 
+                            "changed_by_fk": 1, 
+                            "metric_type": null, 
+                            "is_restricted": false, 
+                            "created_by_fk": 1, 
+                            "expression": "sum(perf)", 
+                            "id": 708, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "metric_name": "sum__perf"
+                        }
+                    }
+                ], 
+                "sql": "select \"District\", TRIM(LOWER(\"Sex ( Male / Female )\")) As Gender, AVG(Total) As perf from classes GROUP BY \"District\", TRIM(LOWER(\"Sex ( Male / Female )\"))", 
+                "database": {
+                    "__Database__": {
+                        "allow_run_sync": true, 
+                        "allow_ctas": false, 
+                        "extra": "{\r\n    \"metadata_params\": {},\r\n    \"engine_params\": {}\r\n}\r\n", 
+                        "created_on": {
+                            "__datetime__": "2017-07-24T19:44:03"
+                        }, 
+                        "created_by_fk": 1, 
+                        "id": 2, 
+                        "allow_csv_upload": true, 
+                        "cache_timeout": null, 
+                        "allow_multi_schema_metadata_fetch": null, 
+                        "perm": "[klp].(id:2)", 
+                        "changed_on": {
+                            "__datetime__": "2017-07-24T19:57:09"
+                        }, 
+                        "changed_by_fk": 1, 
+                        "verbose_name": null, 
+                        "expose_in_sqllab": true, 
+                        "allow_dml": false, 
+                        "allow_run_async": false, 
+                        "password": null, 
+                        "select_as_create_table_as": false, 
+                        "database_name": "klp", 
+                        "sqlalchemy_uri": "sqlite:////home/gaurav/code/datakind/karnataka-learning-patnership/klp_class_combined.sqlite", 
+                        "impersonate_user": null, 
+                        "force_ctas_schema": ""
+                    }
+                }, 
+                "database_id": 2, 
+                "table_name": "j-klp-Untitled Query-rkz0FnZT7Z", 
+                "is_sqllab_view": true
+            }
+        }, 
+        {
+            "__SqlaTable__": {
+                "is_featured": false, 
+                "offset": 0, 
+                "main_dttm_col": null, 
+                "created_on": {
+                    "__datetime__": "2017-07-24T20:27:20"
+                }, 
+                "created_by_fk": 1, 
+                "id": 7, 
+                "changed_on": {
+                    "__datetime__": "2017-07-24T20:27:20"
+                }, 
+                "template_params": null, 
+                "cache_timeout": null, 
+                "user_id": null, 
+                "default_endpoint": null, 
+                "perm": "[klp].[j-klp-Untitled Query-r17CLplqEb](id:7)", 
+                "params": "{\"database_name\": \"klp\", \"remote_id\": 7, \"import_time\": 1500908240}", 
+                "filter_select_enabled": false, 
+                "changed_by_fk": 1, 
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "avg": false, 
+                            "id": 361, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": true, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "District", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "STRING", 
+                            "table_id": 7, 
+                            "expression": "", 
+                            "groupby": true, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "avg": false, 
+                            "id": 362, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": true, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "Village", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "STRING", 
+                            "table_id": 7, 
+                            "expression": "", 
+                            "groupby": true, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "avg": false, 
+                            "id": 363, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": false, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "Performance", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "FLOAT", 
+                            "table_id": 7, 
+                            "expression": "", 
+                            "groupby": false, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "avg": false, 
+                            "id": 364, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": true, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "Block", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "STRING", 
+                            "table_id": 7, 
+                            "expression": "", 
+                            "groupby": true, 
+                            "count_distinct": false
+                        }
+                    }
+                ], 
+                "schema": null, 
+                "fetch_values_predicate": null, 
+                "description": null, 
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "description": null, 
+                            "d3format": null, 
+                            "verbose_name": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "warning_text": null, 
+                            "table_id": 7, 
+                            "changed_by_fk": 1, 
+                            "metric_type": null, 
+                            "is_restricted": false, 
+                            "created_by_fk": 1, 
+                            "expression": "sum(Performance)", 
+                            "id": 685, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "metric_name": "sum__Performance"
+                        }
+                    }
+                ], 
+                "sql": "SELECT \"District\",\n       \"Block\",\n       \"Village\",\n       (CAST(Total_Score AS FLOAT) / CAST(max_score AS FLOAT)) * 100 AS Performance\n   FROM\n     (SELECT \"District\",\n             \"Block\",\n             \"Village\",\n             sum(Total) as \"Total_Score\",\n             count(*) * 20 as \"max_score\"\n      FROM classes\n      GROUP BY \"District\",\n               \"Block\",\n               \"Village\") AS A", 
+                "database": {
+                    "__Database__": {
+                        "allow_run_sync": true, 
+                        "allow_ctas": false, 
+                        "extra": "{\r\n    \"metadata_params\": {},\r\n    \"engine_params\": {}\r\n}\r\n", 
+                        "created_on": {
+                            "__datetime__": "2017-07-24T19:44:03"
+                        }, 
+                        "created_by_fk": 1, 
+                        "id": 2, 
+                        "allow_csv_upload": true, 
+                        "cache_timeout": null, 
+                        "allow_multi_schema_metadata_fetch": null, 
+                        "perm": "[klp].(id:2)", 
+                        "changed_on": {
+                            "__datetime__": "2017-07-24T19:57:09"
+                        }, 
+                        "changed_by_fk": 1, 
+                        "verbose_name": null, 
+                        "expose_in_sqllab": true, 
+                        "allow_dml": false, 
+                        "allow_run_async": false, 
+                        "password": null, 
+                        "select_as_create_table_as": false, 
+                        "database_name": "klp", 
+                        "sqlalchemy_uri": "sqlite:////home/gaurav/code/datakind/karnataka-learning-patnership/klp_class_combined.sqlite", 
+                        "impersonate_user": null, 
+                        "force_ctas_schema": ""
+                    }
+                }, 
+                "database_id": 2, 
+                "table_name": "j-klp-Untitled Query-r17CLplqEb", 
+                "is_sqllab_view": true
+            }
+        }
+    ]
+}

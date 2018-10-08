@@ -1,0 +1,1595 @@
+{
+    "dashboards": [
+        {
+            "__Dashboard__": {
+                "dashboard_title": "Questions Type Analysis - Class 4 - District", 
+                "slug": "questions_class4_district", 
+                "json_metadata": "{\"expanded_slices\": {}, \"filter_immune_slice_fields\": {}, \"filter_immune_slices\": [], \"remote_id\": 6, \"import_time\": 1500908240}", 
+                "description": null, 
+                "slices": [
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null, 
+                            "datasource_id": 10, 
+                            "viz_type": "filter_box", 
+                            "slice_name": "District Filter", 
+                            "perm": "[klp].[j-klp-Untitled Query-rkz0FnZT7Z](id:10)", 
+                            "datasource_type": "table", 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:22"
+                            }, 
+                            "params": "{\"metric\": \"sum__perf\", \"since\": \"100 years ago\", \"viz_type\": \"filter_box\", \"date_filter\": false, \"remote_id\": 71, \"groupby\": [\"District\"], \"datasource\": \"16__table\", \"until\": \"now\", \"datasource_name\": \"j-klp-Untitled Query-rkz0FnZT7Z\", \"database_name\": \"klp\", \"granularity_sqla\": null, \"schema\": \"j-klp-Untitled Query-rkz0FnZT7Z\", \"time_grain_sqla\": null, \"adhoc_filters\": [], \"import_time\": 1500908240, \"instant_filtering\": true}", 
+                            "changed_by_fk": 1, 
+                            "datasource_name": "j-klp-Untitled Query-rkz0FnZT7Z", 
+                            "created_by_fk": 1, 
+                            "id": 71, 
+                            "changed_on": {
+                                "__datetime__": "2018-07-30T23:30:35"
+                            }, 
+                            "description": null
+                        }
+                    }, 
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null, 
+                            "datasource_id": 8, 
+                            "viz_type": "table", 
+                            "slice_name": "Number Concept Class 4 - District Level", 
+                            "perm": "[klp].[j-klp-Question Performance-HkxKvbZeMb](id:8)", 
+                            "datasource_type": "table", 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:22"
+                            }, 
+                            "params": "{\"since\": \"100 years ago\", \"include_time\": false, \"row_limit\": null, \"table_filter\": false, \"granularity_sqla\": null, \"page_length\": 0, \"all_columns\": [], \"viz_type\": \"table\", \"remote_id\": 80, \"until\": \"now\", \"schema\": \"j-klp-Question Performance-HkxKvbZeMb\", \"metrics\": [\"avg__Q1_Performance\", \"avg__Q2_Performance\", \"avg__Q3_Performance\", \"avg__Q4_Performance\", \"avg__Q5_Performance\"], \"adhoc_filters\": [{\"expressionType\": \"SQL\", \"clause\": \"WHERE\", \"filterOptionName\": \"01f8883c-b938-496b-8e3a-3dd6724f7914\", \"sqlExpression\": \"class == 4\"}], \"include_search\": false, \"database_name\": \"klp\", \"order_by_cols\": [], \"datasource\": \"8__table\", \"table_timestamp_format\": \"smart_date\", \"datasource_name\": \"j-klp-Question Performance-HkxKvbZeMb\", \"time_grain_sqla\": null, \"groupby\": [\"District\"], \"import_time\": 1500908240}", 
+                            "changed_by_fk": 1, 
+                            "datasource_name": "j-klp-Question Performance-HkxKvbZeMb", 
+                            "created_by_fk": 1, 
+                            "id": 80, 
+                            "changed_on": {
+                                "__datetime__": "2018-07-30T23:30:35"
+                            }, 
+                            "description": null
+                        }
+                    }, 
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null, 
+                            "datasource_id": 8, 
+                            "viz_type": "table", 
+                            "slice_name": "Addition Class 4 - District Level", 
+                            "perm": "[klp].[j-klp-Question Performance-HkxKvbZeMb](id:8)", 
+                            "datasource_type": "table", 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:22"
+                            }, 
+                            "params": "{\"since\": \"100 years ago\", \"include_time\": false, \"row_limit\": null, \"table_filter\": false, \"granularity_sqla\": null, \"page_length\": 0, \"all_columns\": [], \"viz_type\": \"table\", \"remote_id\": 81, \"until\": \"now\", \"schema\": \"j-klp-Question Performance-HkxKvbZeMb\", \"metrics\": [\"avg__Q6_Performance\", \"avg__Q7_Performance\", \"avg__Q14_Performance\"], \"adhoc_filters\": [{\"expressionType\": \"SQL\", \"clause\": \"WHERE\", \"filterOptionName\": \"4552af1a-d7aa-4231-ac0b-7360cdfe97a3\", \"sqlExpression\": \"class == 4\"}], \"include_search\": false, \"database_name\": \"klp\", \"order_by_cols\": [], \"datasource\": \"8__table\", \"table_timestamp_format\": \"smart_date\", \"datasource_name\": \"j-klp-Question Performance-HkxKvbZeMb\", \"time_grain_sqla\": null, \"groupby\": [\"District\"], \"import_time\": 1500908240}", 
+                            "changed_by_fk": 1, 
+                            "datasource_name": "j-klp-Question Performance-HkxKvbZeMb", 
+                            "created_by_fk": 1, 
+                            "id": 81, 
+                            "changed_on": {
+                                "__datetime__": "2018-07-30T23:30:35"
+                            }, 
+                            "description": null
+                        }
+                    }, 
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null, 
+                            "datasource_id": 8, 
+                            "viz_type": "table", 
+                            "slice_name": "Subtraction Class 4 - District Level", 
+                            "perm": "[klp].[j-klp-Question Performance-HkxKvbZeMb](id:8)", 
+                            "datasource_type": "table", 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:22"
+                            }, 
+                            "params": "{\"since\": \"100 years ago\", \"include_time\": false, \"row_limit\": null, \"table_filter\": false, \"granularity_sqla\": null, \"page_length\": 0, \"all_columns\": [], \"viz_type\": \"table\", \"remote_id\": 82, \"until\": \"now\", \"schema\": \"j-klp-Question Performance-HkxKvbZeMb\", \"metrics\": [\"avg__Q8_Performance\", \"avg__Q9_Performance\", \"avg__Q15_Performance\"], \"adhoc_filters\": [{\"expressionType\": \"SQL\", \"clause\": \"WHERE\", \"filterOptionName\": \"b4d0d23f-8758-4401-9296-1c2fe524ec86\", \"sqlExpression\": \"class == 4\"}], \"include_search\": false, \"database_name\": \"klp\", \"order_by_cols\": [], \"datasource\": \"8__table\", \"table_timestamp_format\": \"smart_date\", \"datasource_name\": \"j-klp-Question Performance-HkxKvbZeMb\", \"time_grain_sqla\": null, \"groupby\": [\"District\"], \"import_time\": 1500908240}", 
+                            "changed_by_fk": 1, 
+                            "datasource_name": "j-klp-Question Performance-HkxKvbZeMb", 
+                            "created_by_fk": 1, 
+                            "id": 82, 
+                            "changed_on": {
+                                "__datetime__": "2018-07-30T23:30:35"
+                            }, 
+                            "description": null
+                        }
+                    }, 
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null, 
+                            "datasource_id": 8, 
+                            "viz_type": "table", 
+                            "slice_name": "Multiplication Class 4 - District Level", 
+                            "perm": "[klp].[j-klp-Question Performance-HkxKvbZeMb](id:8)", 
+                            "datasource_type": "table", 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:22"
+                            }, 
+                            "params": "{\"since\": \"100 years ago\", \"include_time\": false, \"row_limit\": null, \"table_filter\": false, \"granularity_sqla\": null, \"page_length\": 0, \"all_columns\": [], \"viz_type\": \"table\", \"remote_id\": 83, \"until\": \"now\", \"schema\": \"j-klp-Question Performance-HkxKvbZeMb\", \"metrics\": [\"avg__Q10_Performance\", \"avg__Q11_Performance\"], \"adhoc_filters\": [{\"expressionType\": \"SQL\", \"clause\": \"WHERE\", \"filterOptionName\": \"183709ed-0990-463a-8373-701f69df71b8\", \"sqlExpression\": \"class == 4\"}], \"include_search\": false, \"database_name\": \"klp\", \"order_by_cols\": [], \"datasource\": \"8__table\", \"table_timestamp_format\": \"smart_date\", \"datasource_name\": \"j-klp-Question Performance-HkxKvbZeMb\", \"time_grain_sqla\": null, \"groupby\": [\"District\"], \"import_time\": 1500908240}", 
+                            "changed_by_fk": 1, 
+                            "datasource_name": "j-klp-Question Performance-HkxKvbZeMb", 
+                            "created_by_fk": 1, 
+                            "id": 83, 
+                            "changed_on": {
+                                "__datetime__": "2018-07-30T23:30:35"
+                            }, 
+                            "description": null
+                        }
+                    }, 
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null, 
+                            "datasource_id": 8, 
+                            "viz_type": "table", 
+                            "slice_name": "Division Class 4 - District Level", 
+                            "perm": "[klp].[j-klp-Question Performance-HkxKvbZeMb](id:8)", 
+                            "datasource_type": "table", 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:22"
+                            }, 
+                            "params": "{\"since\": \"100 years ago\", \"include_time\": false, \"row_limit\": null, \"table_filter\": false, \"granularity_sqla\": null, \"page_length\": 0, \"all_columns\": [], \"viz_type\": \"table\", \"remote_id\": 84, \"until\": \"now\", \"schema\": \"j-klp-Question Performance-HkxKvbZeMb\", \"metrics\": [\"avg__Q12_Performance\", \"avg__Q13_Performance\", \"avg__Q16_Performance\"], \"adhoc_filters\": [{\"expressionType\": \"SQL\", \"clause\": \"WHERE\", \"filterOptionName\": \"49502184-c178-4858-a6ed-ec57f55db693\", \"sqlExpression\": \"class == 4\"}], \"include_search\": false, \"database_name\": \"klp\", \"order_by_cols\": [], \"datasource\": \"8__table\", \"table_timestamp_format\": \"smart_date\", \"datasource_name\": \"j-klp-Question Performance-HkxKvbZeMb\", \"time_grain_sqla\": null, \"groupby\": [\"District\"], \"import_time\": 1500908240}", 
+                            "changed_by_fk": 1, 
+                            "datasource_name": "j-klp-Question Performance-HkxKvbZeMb", 
+                            "created_by_fk": 1, 
+                            "id": 84, 
+                            "changed_on": {
+                                "__datetime__": "2018-07-30T23:30:35"
+                            }, 
+                            "description": null
+                        }
+                    }, 
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null, 
+                            "datasource_id": 8, 
+                            "viz_type": "table", 
+                            "slice_name": "Pattern Class 4 - District Level", 
+                            "perm": "[klp].[j-klp-Question Performance-HkxKvbZeMb](id:8)", 
+                            "datasource_type": "table", 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:22"
+                            }, 
+                            "params": "{\"since\": \"100 years ago\", \"include_time\": false, \"row_limit\": null, \"table_filter\": false, \"granularity_sqla\": null, \"page_length\": 0, \"all_columns\": [], \"viz_type\": \"table\", \"remote_id\": 85, \"until\": \"now\", \"schema\": \"j-klp-Question Performance-HkxKvbZeMb\", \"metrics\": [\"avg__Q17_Performance\"], \"adhoc_filters\": [{\"expressionType\": \"SQL\", \"clause\": \"WHERE\", \"filterOptionName\": \"d5fd6864-3e95-4288-b887-5e2d6ba3b415\", \"sqlExpression\": \"class == 4\"}], \"include_search\": false, \"database_name\": \"klp\", \"order_by_cols\": [], \"datasource\": \"8__table\", \"table_timestamp_format\": \"smart_date\", \"datasource_name\": \"j-klp-Question Performance-HkxKvbZeMb\", \"time_grain_sqla\": null, \"groupby\": [\"District\"], \"import_time\": 1500908240}", 
+                            "changed_by_fk": 1, 
+                            "datasource_name": "j-klp-Question Performance-HkxKvbZeMb", 
+                            "created_by_fk": 1, 
+                            "id": 85, 
+                            "changed_on": {
+                                "__datetime__": "2018-07-30T23:30:35"
+                            }, 
+                            "description": null
+                        }
+                    }, 
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null, 
+                            "datasource_id": 8, 
+                            "viz_type": "table", 
+                            "slice_name": "Shapes Class 4 - District Level", 
+                            "perm": "[klp].[j-klp-Question Performance-HkxKvbZeMb](id:8)", 
+                            "datasource_type": "table", 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:22"
+                            }, 
+                            "params": "{\"since\": \"100 years ago\", \"include_time\": false, \"row_limit\": null, \"table_filter\": false, \"granularity_sqla\": null, \"page_length\": 0, \"all_columns\": [], \"viz_type\": \"table\", \"remote_id\": 86, \"until\": \"now\", \"schema\": \"j-klp-Question Performance-HkxKvbZeMb\", \"metrics\": [\"avg__Q18_Performance\", \"avg__Q19_Performance\", \"avg__Q20_Performance\"], \"adhoc_filters\": [{\"expressionType\": \"SQL\", \"clause\": \"WHERE\", \"filterOptionName\": \"896ebf80-b9c6-4bcd-8490-fb42c76d08f8\", \"sqlExpression\": \"class == 4\"}], \"include_search\": false, \"database_name\": \"klp\", \"order_by_cols\": [], \"datasource\": \"8__table\", \"table_timestamp_format\": \"smart_date\", \"datasource_name\": \"j-klp-Question Performance-HkxKvbZeMb\", \"time_grain_sqla\": null, \"groupby\": [\"District\"], \"import_time\": 1500908240}", 
+                            "changed_by_fk": 1, 
+                            "datasource_name": "j-klp-Question Performance-HkxKvbZeMb", 
+                            "created_by_fk": 1, 
+                            "id": 86, 
+                            "changed_on": {
+                                "__datetime__": "2018-07-30T23:30:35"
+                            }, 
+                            "description": null
+                        }
+                    }
+                ], 
+                "position_json": "{\n  \"DASHBOARD_CHART_TYPE-0ae996ed\": {\n    \"meta\": {\n      \"chartId\": 81, \n      \"width\": 4, \n      \"height\": 25\n    }, \n    \"type\": \"DASHBOARD_CHART_TYPE\", \n    \"id\": \"DASHBOARD_CHART_TYPE-0ae996ed\", \n    \"children\": []\n  }, \n  \"DASHBOARD_CHART_TYPE-12ec6e2f\": {\n    \"meta\": {\n      \"chartId\": 83, \n      \"width\": 4, \n      \"height\": 25\n    }, \n    \"type\": \"DASHBOARD_CHART_TYPE\", \n    \"id\": \"DASHBOARD_CHART_TYPE-12ec6e2f\", \n    \"children\": []\n  }, \n  \"DASHBOARD_CHART_TYPE-3da6506d\": {\n    \"meta\": {\n      \"chartId\": 86, \n      \"width\": 4, \n      \"height\": 25\n    }, \n    \"type\": \"DASHBOARD_CHART_TYPE\", \n    \"id\": \"DASHBOARD_CHART_TYPE-3da6506d\", \n    \"children\": []\n  }, \n  \"DASHBOARD_CHART_TYPE-625e4139\": {\n    \"meta\": {\n      \"chartId\": 85, \n      \"width\": 4, \n      \"height\": 25\n    }, \n    \"type\": \"DASHBOARD_CHART_TYPE\", \n    \"id\": \"DASHBOARD_CHART_TYPE-625e4139\", \n    \"children\": []\n  }, \n  \"DASHBOARD_CHART_TYPE-7d1b15ce\": {\n    \"meta\": {\n      \"chartId\": 71, \n      \"width\": 3, \n      \"height\": 13\n    }, \n    \"type\": \"DASHBOARD_CHART_TYPE\", \n    \"id\": \"DASHBOARD_CHART_TYPE-7d1b15ce\", \n    \"children\": []\n  }, \n  \"DASHBOARD_CHART_TYPE-ccb61f49\": {\n    \"meta\": {\n      \"chartId\": 84, \n      \"width\": 4, \n      \"height\": 25\n    }, \n    \"type\": \"DASHBOARD_CHART_TYPE\", \n    \"id\": \"DASHBOARD_CHART_TYPE-ccb61f49\", \n    \"children\": []\n  }, \n  \"DASHBOARD_CHART_TYPE-f373f3e9\": {\n    \"meta\": {\n      \"chartId\": 80, \n      \"width\": 8, \n      \"height\": 25\n    }, \n    \"type\": \"DASHBOARD_CHART_TYPE\", \n    \"id\": \"DASHBOARD_CHART_TYPE-f373f3e9\", \n    \"children\": []\n  }, \n  \"DASHBOARD_CHART_TYPE-f5a7a91c\": {\n    \"meta\": {\n      \"chartId\": 82, \n      \"width\": 5, \n      \"height\": 25\n    }, \n    \"type\": \"DASHBOARD_CHART_TYPE\", \n    \"id\": \"DASHBOARD_CHART_TYPE-f5a7a91c\", \n    \"children\": []\n  }, \n  \"DASHBOARD_GRID_ID\": {\n    \"type\": \"DASHBOARD_GRID_TYPE\", \n    \"id\": \"DASHBOARD_GRID_ID\", \n    \"children\": [\n      \"DASHBOARD_ROW_TYPE-39dc0e8a\", \n      \"DASHBOARD_ROW_TYPE-9b4d3c0d\", \n      \"DASHBOARD_ROW_TYPE-fd5bc51b\"\n    ]\n  }, \n  \"DASHBOARD_HEADER_ID\": {\n    \"meta\": {\n      \"text\": \"Questions Type Analysis - Class 4 - District\"\n    }, \n    \"type\": \"DASHBOARD_HEADER_TYPE\", \n    \"id\": \"DASHBOARD_HEADER_ID\"\n  }, \n  \"DASHBOARD_ROOT_ID\": {\n    \"type\": \"DASHBOARD_ROOT_TYPE\", \n    \"id\": \"DASHBOARD_ROOT_ID\", \n    \"children\": [\n      \"DASHBOARD_GRID_ID\"\n    ]\n  }, \n  \"DASHBOARD_ROW_TYPE-39dc0e8a\": {\n    \"meta\": {\n      \"background\": \"BACKGROUND_TRANSPARENT\"\n    }, \n    \"type\": \"DASHBOARD_ROW_TYPE\", \n    \"id\": \"DASHBOARD_ROW_TYPE-39dc0e8a\", \n    \"children\": [\n      \"DASHBOARD_CHART_TYPE-7d1b15ce\", \n      \"DASHBOARD_CHART_TYPE-f5a7a91c\", \n      \"DASHBOARD_CHART_TYPE-625e4139\"\n    ]\n  }, \n  \"DASHBOARD_ROW_TYPE-9b4d3c0d\": {\n    \"meta\": {\n      \"background\": \"BACKGROUND_TRANSPARENT\"\n    }, \n    \"type\": \"DASHBOARD_ROW_TYPE\", \n    \"id\": \"DASHBOARD_ROW_TYPE-9b4d3c0d\", \n    \"children\": [\n      \"DASHBOARD_CHART_TYPE-f373f3e9\", \n      \"DASHBOARD_CHART_TYPE-0ae996ed\"\n    ]\n  }, \n  \"DASHBOARD_ROW_TYPE-fd5bc51b\": {\n    \"meta\": {\n      \"background\": \"BACKGROUND_TRANSPARENT\"\n    }, \n    \"type\": \"DASHBOARD_ROW_TYPE\", \n    \"id\": \"DASHBOARD_ROW_TYPE-fd5bc51b\", \n    \"children\": [\n      \"DASHBOARD_CHART_TYPE-12ec6e2f\", \n      \"DASHBOARD_CHART_TYPE-ccb61f49\", \n      \"DASHBOARD_CHART_TYPE-3da6506d\"\n    ]\n  }, \n  \"DASHBOARD_VERSION_KEY\": \"v2\"\n}", 
+                "created_on": {
+                    "__datetime__": "2017-07-24T20:27:22"
+                }, 
+                "changed_on": {
+                    "__datetime__": "2017-07-24T20:27:22"
+                }, 
+                "changed_by_fk": 1, 
+                "created_by_fk": 1, 
+                "id": 6, 
+                "css": ""
+            }
+        }
+    ], 
+    "datasources": [
+        {
+            "__SqlaTable__": {
+                "is_featured": false, 
+                "offset": 0, 
+                "main_dttm_col": null, 
+                "created_on": {
+                    "__datetime__": "2017-07-24T20:27:20"
+                }, 
+                "created_by_fk": 1, 
+                "id": 8, 
+                "changed_on": {
+                    "__datetime__": "2017-07-24T20:27:20"
+                }, 
+                "template_params": null, 
+                "cache_timeout": null, 
+                "user_id": null, 
+                "default_endpoint": null, 
+                "perm": "[klp].[j-klp-Question Performance-HkxKvbZeMb](id:8)", 
+                "params": "{\"database_name\": \"klp\", \"remote_id\": 8, \"import_time\": 1500908240}", 
+                "filter_select_enabled": false, 
+                "changed_by_fk": 1, 
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "avg": false, 
+                            "id": 365, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": false, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "Q4_Performance", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "FLOAT", 
+                            "table_id": 8, 
+                            "expression": "", 
+                            "groupby": false, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "avg": false, 
+                            "id": 366, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": false, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "Q20_Performance", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "FLOAT", 
+                            "table_id": 8, 
+                            "expression": "", 
+                            "groupby": false, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "avg": false, 
+                            "id": 367, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": false, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "Q3_Performance", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "FLOAT", 
+                            "table_id": 8, 
+                            "expression": "", 
+                            "groupby": false, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "avg": false, 
+                            "id": 368, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": false, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "Q12_Performance", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "FLOAT", 
+                            "table_id": 8, 
+                            "expression": "", 
+                            "groupby": false, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "avg": false, 
+                            "id": 369, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": false, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "Q13_Performance", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "FLOAT", 
+                            "table_id": 8, 
+                            "expression": "", 
+                            "groupby": false, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "avg": false, 
+                            "id": 370, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": true, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "District", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "STRING", 
+                            "table_id": 8, 
+                            "expression": "", 
+                            "groupby": true, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "avg": false, 
+                            "id": 371, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": false, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "Q5_Performance", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "FLOAT", 
+                            "table_id": 8, 
+                            "expression": "", 
+                            "groupby": false, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "avg": false, 
+                            "id": 372, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": false, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "Performance", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "FLOAT", 
+                            "table_id": 8, 
+                            "expression": "", 
+                            "groupby": false, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "avg": false, 
+                            "id": 373, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": false, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "Q6_Performance", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "FLOAT", 
+                            "table_id": 8, 
+                            "expression": "", 
+                            "groupby": false, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "avg": false, 
+                            "id": 374, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": false, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "Q7_Performance", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "FLOAT", 
+                            "table_id": 8, 
+                            "expression": "", 
+                            "groupby": false, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "avg": false, 
+                            "id": 375, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": false, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "Q11_Performance", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "FLOAT", 
+                            "table_id": 8, 
+                            "expression": "", 
+                            "groupby": false, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "avg": false, 
+                            "id": 376, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": false, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "Q18_Performance", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "FLOAT", 
+                            "table_id": 8, 
+                            "expression": "", 
+                            "groupby": false, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "avg": false, 
+                            "id": 377, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": false, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "Q2_Performance", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "FLOAT", 
+                            "table_id": 8, 
+                            "expression": "", 
+                            "groupby": false, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "avg": false, 
+                            "id": 378, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": false, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "Q1_Performance", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "FLOAT", 
+                            "table_id": 8, 
+                            "expression": "", 
+                            "groupby": false, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "avg": false, 
+                            "id": 379, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": false, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "Q17_Performance", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "FLOAT", 
+                            "table_id": 8, 
+                            "expression": "", 
+                            "groupby": false, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "avg": false, 
+                            "id": 380, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": false, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "Q15_Performance", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "FLOAT", 
+                            "table_id": 8, 
+                            "expression": "", 
+                            "groupby": false, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "avg": false, 
+                            "id": 381, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": false, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "Q8_Performance", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "FLOAT", 
+                            "table_id": 8, 
+                            "expression": "", 
+                            "groupby": false, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "avg": false, 
+                            "id": 382, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": false, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "Q9_Performance", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "FLOAT", 
+                            "table_id": 8, 
+                            "expression": "", 
+                            "groupby": false, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "avg": false, 
+                            "id": 383, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": false, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "Q14_Performance", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "FLOAT", 
+                            "table_id": 8, 
+                            "expression": "", 
+                            "groupby": false, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "avg": false, 
+                            "id": 384, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": false, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "Q10_Performance", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "FLOAT", 
+                            "table_id": 8, 
+                            "expression": "", 
+                            "groupby": false, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "avg": false, 
+                            "id": 385, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": false, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "Q16_Performance", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "FLOAT", 
+                            "table_id": 8, 
+                            "expression": "", 
+                            "groupby": false, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "avg": false, 
+                            "id": 386, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": true, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "class", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "INT", 
+                            "table_id": 8, 
+                            "expression": "", 
+                            "groupby": true, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "avg": false, 
+                            "id": 387, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": false, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "Q19_Performance", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "FLOAT", 
+                            "table_id": 8, 
+                            "expression": "", 
+                            "groupby": false, 
+                            "count_distinct": false
+                        }
+                    }
+                ], 
+                "schema": null, 
+                "fetch_values_predicate": null, 
+                "description": null, 
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "description": null, 
+                            "d3format": null, 
+                            "verbose_name": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "warning_text": null, 
+                            "table_id": 8, 
+                            "changed_by_fk": 1, 
+                            "metric_type": null, 
+                            "is_restricted": false, 
+                            "created_by_fk": 1, 
+                            "expression": "avg(Q4_Performance)", 
+                            "id": 686, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "metric_name": "avg__Q4_Performance"
+                        }
+                    }, 
+                    {
+                        "__SqlMetric__": {
+                            "description": null, 
+                            "d3format": null, 
+                            "verbose_name": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "warning_text": null, 
+                            "table_id": 8, 
+                            "changed_by_fk": 1, 
+                            "metric_type": null, 
+                            "is_restricted": false, 
+                            "created_by_fk": 1, 
+                            "expression": "avg(Q20_Performance)", 
+                            "id": 687, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "metric_name": "avg__Q20_Performance"
+                        }
+                    }, 
+                    {
+                        "__SqlMetric__": {
+                            "description": null, 
+                            "d3format": null, 
+                            "verbose_name": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "warning_text": null, 
+                            "table_id": 8, 
+                            "changed_by_fk": 1, 
+                            "metric_type": null, 
+                            "is_restricted": false, 
+                            "created_by_fk": 1, 
+                            "expression": "avg(Q3_Performance)", 
+                            "id": 688, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "metric_name": "avg__Q3_Performance"
+                        }
+                    }, 
+                    {
+                        "__SqlMetric__": {
+                            "description": null, 
+                            "d3format": null, 
+                            "verbose_name": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "warning_text": null, 
+                            "table_id": 8, 
+                            "changed_by_fk": 1, 
+                            "metric_type": null, 
+                            "is_restricted": false, 
+                            "created_by_fk": 1, 
+                            "expression": "avg(Q12_Performance)", 
+                            "id": 689, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "metric_name": "avg__Q12_Performance"
+                        }
+                    }, 
+                    {
+                        "__SqlMetric__": {
+                            "description": null, 
+                            "d3format": null, 
+                            "verbose_name": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "warning_text": null, 
+                            "table_id": 8, 
+                            "changed_by_fk": 1, 
+                            "metric_type": null, 
+                            "is_restricted": false, 
+                            "created_by_fk": 1, 
+                            "expression": "avg(Q13_Performance)", 
+                            "id": 690, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "metric_name": "avg__Q13_Performance"
+                        }
+                    }, 
+                    {
+                        "__SqlMetric__": {
+                            "description": null, 
+                            "d3format": null, 
+                            "verbose_name": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "warning_text": null, 
+                            "table_id": 8, 
+                            "changed_by_fk": 1, 
+                            "metric_type": null, 
+                            "is_restricted": false, 
+                            "created_by_fk": 1, 
+                            "expression": "avg(Q5_Performance)", 
+                            "id": 691, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "metric_name": "avg__Q5_Performance"
+                        }
+                    }, 
+                    {
+                        "__SqlMetric__": {
+                            "description": null, 
+                            "d3format": null, 
+                            "verbose_name": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "warning_text": null, 
+                            "table_id": 8, 
+                            "changed_by_fk": 1, 
+                            "metric_type": null, 
+                            "is_restricted": false, 
+                            "created_by_fk": 1, 
+                            "expression": "avg(Performance)", 
+                            "id": 692, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "metric_name": "avg__Performance"
+                        }
+                    }, 
+                    {
+                        "__SqlMetric__": {
+                            "description": null, 
+                            "d3format": null, 
+                            "verbose_name": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "warning_text": null, 
+                            "table_id": 8, 
+                            "changed_by_fk": 1, 
+                            "metric_type": null, 
+                            "is_restricted": false, 
+                            "created_by_fk": 1, 
+                            "expression": "avg(Q6_Performance)", 
+                            "id": 693, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "metric_name": "avg__Q6_Performance"
+                        }
+                    }, 
+                    {
+                        "__SqlMetric__": {
+                            "description": null, 
+                            "d3format": null, 
+                            "verbose_name": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "warning_text": null, 
+                            "table_id": 8, 
+                            "changed_by_fk": 1, 
+                            "metric_type": null, 
+                            "is_restricted": false, 
+                            "created_by_fk": 1, 
+                            "expression": "avg(Q7_Performance)", 
+                            "id": 694, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "metric_name": "avg__Q7_Performance"
+                        }
+                    }, 
+                    {
+                        "__SqlMetric__": {
+                            "description": null, 
+                            "d3format": null, 
+                            "verbose_name": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "warning_text": null, 
+                            "table_id": 8, 
+                            "changed_by_fk": 1, 
+                            "metric_type": null, 
+                            "is_restricted": false, 
+                            "created_by_fk": 1, 
+                            "expression": "avg(Q11_Performance)", 
+                            "id": 695, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "metric_name": "avg__Q11_Performance"
+                        }
+                    }, 
+                    {
+                        "__SqlMetric__": {
+                            "description": null, 
+                            "d3format": null, 
+                            "verbose_name": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "warning_text": null, 
+                            "table_id": 8, 
+                            "changed_by_fk": 1, 
+                            "metric_type": null, 
+                            "is_restricted": false, 
+                            "created_by_fk": 1, 
+                            "expression": "avg(Q18_Performance)", 
+                            "id": 696, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "metric_name": "avg__Q18_Performance"
+                        }
+                    }, 
+                    {
+                        "__SqlMetric__": {
+                            "description": null, 
+                            "d3format": null, 
+                            "verbose_name": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "warning_text": null, 
+                            "table_id": 8, 
+                            "changed_by_fk": 1, 
+                            "metric_type": null, 
+                            "is_restricted": false, 
+                            "created_by_fk": 1, 
+                            "expression": "avg(Q2_Performance)", 
+                            "id": 697, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "metric_name": "avg__Q2_Performance"
+                        }
+                    }, 
+                    {
+                        "__SqlMetric__": {
+                            "description": null, 
+                            "d3format": null, 
+                            "verbose_name": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "warning_text": null, 
+                            "table_id": 8, 
+                            "changed_by_fk": 1, 
+                            "metric_type": null, 
+                            "is_restricted": false, 
+                            "created_by_fk": 1, 
+                            "expression": "avg(Q1_Performance)", 
+                            "id": 698, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "metric_name": "avg__Q1_Performance"
+                        }
+                    }, 
+                    {
+                        "__SqlMetric__": {
+                            "description": null, 
+                            "d3format": null, 
+                            "verbose_name": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "warning_text": null, 
+                            "table_id": 8, 
+                            "changed_by_fk": 1, 
+                            "metric_type": null, 
+                            "is_restricted": false, 
+                            "created_by_fk": 1, 
+                            "expression": "avg(Q17_Performance)", 
+                            "id": 699, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "metric_name": "avg__Q17_Performance"
+                        }
+                    }, 
+                    {
+                        "__SqlMetric__": {
+                            "description": null, 
+                            "d3format": null, 
+                            "verbose_name": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "warning_text": null, 
+                            "table_id": 8, 
+                            "changed_by_fk": 1, 
+                            "metric_type": null, 
+                            "is_restricted": false, 
+                            "created_by_fk": 1, 
+                            "expression": "avg(Q15_Performance)", 
+                            "id": 700, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "metric_name": "avg__Q15_Performance"
+                        }
+                    }, 
+                    {
+                        "__SqlMetric__": {
+                            "description": null, 
+                            "d3format": null, 
+                            "verbose_name": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "warning_text": null, 
+                            "table_id": 8, 
+                            "changed_by_fk": 1, 
+                            "metric_type": null, 
+                            "is_restricted": false, 
+                            "created_by_fk": 1, 
+                            "expression": "avg(Q8_Performance)", 
+                            "id": 701, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "metric_name": "avg__Q8_Performance"
+                        }
+                    }, 
+                    {
+                        "__SqlMetric__": {
+                            "description": null, 
+                            "d3format": null, 
+                            "verbose_name": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "warning_text": null, 
+                            "table_id": 8, 
+                            "changed_by_fk": 1, 
+                            "metric_type": null, 
+                            "is_restricted": false, 
+                            "created_by_fk": 1, 
+                            "expression": "avg(Q9_Performance)", 
+                            "id": 702, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "metric_name": "avg__Q9_Performance"
+                        }
+                    }, 
+                    {
+                        "__SqlMetric__": {
+                            "description": null, 
+                            "d3format": null, 
+                            "verbose_name": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "warning_text": null, 
+                            "table_id": 8, 
+                            "changed_by_fk": 1, 
+                            "metric_type": null, 
+                            "is_restricted": false, 
+                            "created_by_fk": 1, 
+                            "expression": "avg(Q14_Performance)", 
+                            "id": 703, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "metric_name": "avg__Q14_Performance"
+                        }
+                    }, 
+                    {
+                        "__SqlMetric__": {
+                            "description": null, 
+                            "d3format": null, 
+                            "verbose_name": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "warning_text": null, 
+                            "table_id": 8, 
+                            "changed_by_fk": 1, 
+                            "metric_type": null, 
+                            "is_restricted": false, 
+                            "created_by_fk": 1, 
+                            "expression": "avg(Q10_Performance)", 
+                            "id": 704, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "metric_name": "avg__Q10_Performance"
+                        }
+                    }, 
+                    {
+                        "__SqlMetric__": {
+                            "description": null, 
+                            "d3format": null, 
+                            "verbose_name": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "warning_text": null, 
+                            "table_id": 8, 
+                            "changed_by_fk": 1, 
+                            "metric_type": null, 
+                            "is_restricted": false, 
+                            "created_by_fk": 1, 
+                            "expression": "avg(Q16_Performance)", 
+                            "id": 705, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "metric_name": "avg__Q16_Performance"
+                        }
+                    }, 
+                    {
+                        "__SqlMetric__": {
+                            "description": null, 
+                            "d3format": null, 
+                            "verbose_name": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "warning_text": null, 
+                            "table_id": 8, 
+                            "changed_by_fk": 1, 
+                            "metric_type": null, 
+                            "is_restricted": false, 
+                            "created_by_fk": 1, 
+                            "expression": "avg(Q19_Performance)", 
+                            "id": 706, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:20"
+                            }, 
+                            "metric_name": "avg__Q19_Performance"
+                        }
+                    }
+                ], 
+                "sql": "SELECT \"District\" AS \"District\",\n       class AS class, \n       \"Performance\",\n       \"Q1_Performance\",\n       \"Q2_Performance\",\n       \"Q3_Performance\",\n       \"Q4_Performance\",\n       \"Q5_Performance\",\n       \"Q6_Performance\",\n       \"Q7_Performance\",\n       \"Q8_Performance\",\n       \"Q9_Performance\",\n       \"Q10_Performance\",\n       \"Q11_Performance\",\n       \"Q12_Performance\",\n       \"Q13_Performance\",\n       \"Q14_Performance\",\n       \"Q15_Performance\",\n       \"Q16_Performance\",\n       \"Q17_Performance\",\n       \"Q18_Performance\",\n       \"Q19_Performance\",\n       \"Q20_Performance\"\nFROM\n  (SELECT \"District\",\n          CAST(\"class\" AS STRING) AS \"class\",\n          (CAST(Total_Score AS FLOAT) / CAST(max_score AS FLOAT)) * 100 AS Performance,\n          (CAST(Total_Q1 AS FLOAT) / CAST(child_count AS FLOAT)) * 100 AS Q1_Performance,\n          (CAST(Total_Q2 AS FLOAT) / CAST(child_count AS FLOAT)) * 100 AS Q2_Performance,\n          (CAST(Total_Q3 AS FLOAT) / CAST(child_count AS FLOAT)) * 100 AS Q3_Performance,\n          (CAST(Total_Q4 AS FLOAT) / CAST(child_count AS FLOAT)) * 100 AS Q4_Performance,\n          (CAST(Total_Q5 AS FLOAT) / CAST(child_count AS FLOAT)) * 100 AS Q5_Performance,\n          (CAST(Total_Q6 AS FLOAT) / CAST(child_count AS FLOAT)) * 100 AS Q6_Performance,\n          (CAST(Total_Q7 AS FLOAT) / CAST(child_count AS FLOAT)) * 100 AS Q7_Performance,\n          (CAST(Total_Q8 AS FLOAT) / CAST(child_count AS FLOAT)) * 100 AS Q8_Performance,\n          (CAST(Total_Q9 AS FLOAT) / CAST(child_count AS FLOAT)) * 100 AS Q9_Performance,\n          (CAST(Total_Q10 AS FLOAT) / CAST(child_count AS FLOAT)) * 100 AS Q10_Performance,\n          (CAST(Total_Q11 AS FLOAT) / CAST(child_count AS FLOAT)) * 100 AS Q11_Performance,\n          (CAST(Total_Q12 AS FLOAT) / CAST(child_count AS FLOAT)) * 100 AS Q12_Performance,\n          (CAST(Total_Q13 AS FLOAT) / CAST(child_count AS FLOAT)) * 100 AS Q13_Performance,\n          (CAST(Total_Q14 AS FLOAT) / CAST(child_count AS FLOAT)) * 100 AS Q14_Performance,\n          (CAST(Total_Q15 AS FLOAT) / CAST(child_count AS FLOAT)) * 100 AS Q15_Performance,\n          (CAST(Total_Q16 AS FLOAT) / CAST(child_count AS FLOAT)) * 100 AS Q16_Performance,\n          (CAST(Total_Q17 AS FLOAT) / CAST(child_count AS FLOAT)) * 100 AS Q17_Performance,\n          (CAST(Total_Q18 AS FLOAT) / CAST(child_count AS FLOAT)) * 100 AS Q18_Performance,\n          (CAST(Total_Q19 AS FLOAT) / CAST(child_count AS FLOAT)) * 100 AS Q19_Performance,\n          (CAST(Total_Q20 AS FLOAT) / CAST(child_count AS FLOAT)) * 100 AS Q20_Performance\n   FROM\n     (SELECT \"District\",\n             \"class\",\n             sum(Total) as \"Total_Score\",\n             count(*) * 20 as \"max_score\",\n             count(*) as \"child_count\",\n             sum(\"Q1\") as \"Total_Q1\",\n             sum(\"Q2\") as \"Total_Q2\",\n             sum(\"Q3\") as \"Total_Q3\",\n             sum(\"Q4\") as \"Total_Q4\",\n             sum(\"Q5\") as \"Total_Q5\",\n             sum(\"Q6\") as \"Total_Q6\",\n             sum(\"Q7\") as \"Total_Q7\",\n             sum(\"Q8\") as \"Total_Q8\",\n             sum(\"Q9\") as \"Total_Q9\",\n             sum(\"Q10\") as \"Total_Q10\",\n             sum(\"Q11\") as \"Total_Q11\",\n             sum(\"Q12\") as \"Total_Q12\",\n             sum(\"Q13\") as \"Total_Q13\",\n             sum(\"Q14\") as \"Total_Q14\",\n             sum(\"Q15\") as \"Total_Q15\",\n             sum(\"Q16\") as \"Total_Q16\",\n             sum(\"Q17\") as \"Total_Q17\",\n             sum(\"Q18\") as \"Total_Q18\",\n             sum(\"Q19\") as \"Total_Q19\",\n             sum(\"Q20\") as \"Total_Q20\"\n      FROM classes\n      GROUP BY \"District\",\n               \"class\") AS A) AS expr_qry\nGROUP BY \"District\",\n         class\nORDER BY \"Performance\" DESC", 
+                "database": {
+                    "__Database__": {
+                        "allow_run_sync": true, 
+                        "allow_ctas": false, 
+                        "extra": "{\r\n    \"metadata_params\": {},\r\n    \"engine_params\": {}\r\n}\r\n", 
+                        "created_on": {
+                            "__datetime__": "2017-07-24T19:44:03"
+                        }, 
+                        "created_by_fk": 1, 
+                        "id": 2, 
+                        "allow_csv_upload": true, 
+                        "cache_timeout": null, 
+                        "allow_multi_schema_metadata_fetch": null, 
+                        "perm": "[klp].(id:2)", 
+                        "changed_on": {
+                            "__datetime__": "2017-07-24T19:57:09"
+                        }, 
+                        "changed_by_fk": 1, 
+                        "verbose_name": null, 
+                        "expose_in_sqllab": true, 
+                        "allow_dml": false, 
+                        "allow_run_async": false, 
+                        "password": null, 
+                        "select_as_create_table_as": false, 
+                        "database_name": "klp", 
+                        "sqlalchemy_uri": "sqlite:////home/gaurav/code/datakind/karnataka-learning-patnership/klp_class_combined.sqlite", 
+                        "impersonate_user": null, 
+                        "force_ctas_schema": ""
+                    }
+                }, 
+                "database_id": 2, 
+                "table_name": "j-klp-Question Performance-HkxKvbZeMb", 
+                "is_sqllab_view": true
+            }
+        }, 
+        {
+            "__SqlaTable__": {
+                "is_featured": false, 
+                "offset": 0, 
+                "main_dttm_col": null, 
+                "created_on": {
+                    "__datetime__": "2017-07-24T20:27:21"
+                }, 
+                "created_by_fk": 1, 
+                "id": 10, 
+                "changed_on": {
+                    "__datetime__": "2017-07-24T20:27:21"
+                }, 
+                "template_params": null, 
+                "cache_timeout": null, 
+                "user_id": null, 
+                "default_endpoint": null, 
+                "perm": "[klp].[j-klp-Untitled Query-rkz0FnZT7Z](id:10)", 
+                "params": "{\"database_name\": \"klp\", \"remote_id\": 10, \"import_time\": 1500908240}", 
+                "filter_select_enabled": false, 
+                "changed_by_fk": 1, 
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "avg": false, 
+                            "id": 393, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": false, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "perf", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "FLOAT", 
+                            "table_id": 10, 
+                            "expression": "", 
+                            "groupby": false, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "avg": false, 
+                            "id": 394, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": true, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "Gender", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "STRING", 
+                            "table_id": 10, 
+                            "expression": "", 
+                            "groupby": true, 
+                            "count_distinct": false
+                        }
+                    }, 
+                    {
+                        "__TableColumn__": {
+                            "python_date_format": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "avg": false, 
+                            "id": 395, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "created_by_fk": 1, 
+                            "min": false, 
+                            "filterable": true, 
+                            "is_dttm": false, 
+                            "sum": false, 
+                            "database_expression": null, 
+                            "changed_by_fk": 1, 
+                            "verbose_name": null, 
+                            "column_name": "District", 
+                            "description": null, 
+                            "max": false, 
+                            "is_active": true, 
+                            "type": "STRING", 
+                            "table_id": 10, 
+                            "expression": "", 
+                            "groupby": true, 
+                            "count_distinct": false
+                        }
+                    }
+                ], 
+                "schema": null, 
+                "fetch_values_predicate": null, 
+                "description": null, 
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "description": null, 
+                            "d3format": null, 
+                            "verbose_name": null, 
+                            "created_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "warning_text": null, 
+                            "table_id": 10, 
+                            "changed_by_fk": 1, 
+                            "metric_type": null, 
+                            "is_restricted": false, 
+                            "created_by_fk": 1, 
+                            "expression": "sum(perf)", 
+                            "id": 708, 
+                            "changed_on": {
+                                "__datetime__": "2017-07-24T20:27:21"
+                            }, 
+                            "metric_name": "sum__perf"
+                        }
+                    }
+                ], 
+                "sql": "select \"District\", TRIM(LOWER(\"Sex ( Male / Female )\")) As Gender, AVG(Total) As perf from classes GROUP BY \"District\", TRIM(LOWER(\"Sex ( Male / Female )\"))", 
+                "database": {
+                    "__Database__": {
+                        "allow_run_sync": true, 
+                        "allow_ctas": false, 
+                        "extra": "{\r\n    \"metadata_params\": {},\r\n    \"engine_params\": {}\r\n}\r\n", 
+                        "created_on": {
+                            "__datetime__": "2017-07-24T19:44:03"
+                        }, 
+                        "created_by_fk": 1, 
+                        "id": 2, 
+                        "allow_csv_upload": true, 
+                        "cache_timeout": null, 
+                        "allow_multi_schema_metadata_fetch": null, 
+                        "perm": "[klp].(id:2)", 
+                        "changed_on": {
+                            "__datetime__": "2017-07-24T19:57:09"
+                        }, 
+                        "changed_by_fk": 1, 
+                        "verbose_name": null, 
+                        "expose_in_sqllab": true, 
+                        "allow_dml": false, 
+                        "allow_run_async": false, 
+                        "password": null, 
+                        "select_as_create_table_as": false, 
+                        "database_name": "klp", 
+                        "sqlalchemy_uri": "sqlite:////home/gaurav/code/datakind/karnataka-learning-patnership/klp_class_combined.sqlite", 
+                        "impersonate_user": null, 
+                        "force_ctas_schema": ""
+                    }
+                }, 
+                "database_id": 2, 
+                "table_name": "j-klp-Untitled Query-rkz0FnZT7Z", 
+                "is_sqllab_view": true
+            }
+        }
+    ]
+}
