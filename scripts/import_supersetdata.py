@@ -42,12 +42,12 @@ for row in cursor.fetchall():
     numcount = row[14]
     if qgid in qgids:
         if sequence not in qgids[qgid]["sequences"]:
-            qgids[qgid]["sqlcreate"] = qgids[qgid]["sqlcreate"]+", qname"+sequence+" VARCHAR (50), qid"+sequence+" VARCHAR (50), sequence"+sequence+" VARCHAR (50), yescount"+sequence+" VARCHAR (50), nocount"+sequence+" VARCHAR (50), numcount"+sequence+" VARCHAR (50)"
+            qgids[qgid]["sqlcreate"] = qgids[qgid]["sqlcreate"]+", qname"+sequence+" VARCHAR (50), qid"+sequence+" integer, sequence"+sequence+" integer, yescount"+sequence+" integer, nocount"+sequence+" integer, numcount"+sequence+" integer"
             qgids[qgid]["sequences"][sequence] = 1
     else:
         qgids[qgid] = {"sqlcreate":"","sequences":{}}
         qgids[qgid]["sqlcreate"] = "create table superset_"+qgid+" (state VARCHAR (50), district VARCHAR (50), block VARCHAR (50), cluster VARCHAR (50), institution_name VARCHAR (100), institution_id integer, gp VARCHAR (100), class VARCHAR (50)" 
-        qgids[qgid]["sqlcreate"] = qgids[qgid]["sqlcreate"]+", qname"+sequence+" VARCHAR (50), qid"+sequence+" VARCHAR (50), sequence"+sequence+" VARCHAR (50), yescount"+sequence+" VARCHAR (50), nocount"+sequence+" VARCHAR (50), numcount"+sequence+" VARCHAR (50)"
+        qgids[qgid]["sqlcreate"] = qgids[qgid]["sqlcreate"]+", qname"+sequence+" VARCHAR (50), qid"+sequence+" integer, sequence"+sequence+" integer, yescount"+sequence+" integer, nocount"+sequence+" integer, numcount"+sequence+" integer"
         qgids[qgid]["sequences"][sequence] = 1
         
     if qgid in data:
@@ -57,24 +57,34 @@ for row in cursor.fetchall():
                     data[qgid][institution_id]["qgs"][qg_name]["questions"][sequence]["yescount"] += yescount
                     data[qgid][institution_id]["qgs"][qg_name]["questions"][sequence]["nocount"] += nocount 
                     data[qgid][institution_id]["qgs"][qg_name]["questions"][sequence]["numcount"] += numcount 
+                    data[qgid][institution_id]["qgs"][qg_name]["total_numcount"] += numcount 
+                    data[qgid][institution_id]["qgs"][qg_name]["total_correctcount"] += yescount 
                 else:
                     data[qgid][institution_id]["qgs"][qg_name]["questions"][sequence] = {"qid":qid, "qname":qname, "yescount":yescount, "nocount":nocount, "numcount":numcount}
+                    data[qgid][institution_id]["qgs"][qg_name]["total_numcount"] += numcount 
+                    data[qgid][institution_id]["qgs"][qg_name]["total_correctcount"] += yescount 
             else:
-                data[qgid][institution_id]["qgs"][qg_name] = {"questions": {}} 
+                data[qgid][institution_id]["qgs"][qg_name] = {"questions": {},"total_numcount":0, "total_correctcount":0} 
+                data[qgid][institution_id]["qgs"][qg_name]["total_numcount"] += numcount 
+                data[qgid][institution_id]["qgs"][qg_name]["total_correctcount"] += yescount 
                 data[qgid][institution_id]["qgs"][qg_name]["questions"][sequence] = {"qid":qid, "qname":qname, "yescount":yescount, "nocount":nocount, "numcount":numcount}
         else:
             data[qgid][institution_id] = {"state":state, "district": district, "block": block, "cluster":cluster, "institution_name":institution_name, "institution_id":institution_id, "gp": gp, "qgs" :{}}
-            data[qgid][institution_id]["qgs"][qg_name] = {"questions": {sequence: {"qid":qid, "qname":qname, "yescount":yescount, "nocount":nocount, "numcount":numcount}}}
+            data[qgid][institution_id]["qgs"][qg_name] = {"questions": {sequence: {"qid":qid, "qname":qname, "yescount":yescount, "nocount":nocount, "numcount":numcount}},"total_numcount": 0, "total_correctcount": 0}
+            data[qgid][institution_id]["qgs"][qg_name]["total_numcount"] += numcount 
+            data[qgid][institution_id]["qgs"][qg_name]["total_correctcount"] += yescount 
     else:
         data[qgid]={}
         data[qgid][institution_id] = {"state":state, "district": district, "block": block, "cluster":cluster, "institution_name":institution_name, "institution_id":institution_id, "gp": gp, "qgs" :{}}
-        data[qgid][institution_id]["qgs"][qg_name] = {"questions": {sequence: {"qid":qid, "qname":qname, "yescount":yescount, "nocount":nocount, "numcount":numcount}}}
+        data[qgid][institution_id]["qgs"][qg_name] = {"questions": {sequence: {"qid":qid, "qname":qname, "yescount":yescount, "nocount":nocount, "numcount":numcount}}, "total_numcount": 0, "total_correctcount": 0}
+        data[qgid][institution_id]["qgs"][qg_name]["total_numcount"] += numcount 
+        data[qgid][institution_id]["qgs"][qg_name]["total_correctcount"] += yescount 
        
 
 
 for qgid in qgids:
      sqlcreate = qgids[qgid]["sqlcreate"]
-     sqlcreate = sqlcreate+");"
+     sqlcreate = sqlcreate+", total_correctcount integer, total_numcount integer);"
      cursor.execute(sqlcreate)
      conn.commit()
 
@@ -90,7 +100,7 @@ for qgid in data:
             sqlinsert = init_sqlinsert+",'"+qg+"'"
             for sequence in data[qgid][institution_id]["qgs"][qg]["questions"]:
                 sqlinsert = sqlinsert+",'"+data[qgid][institution_id]["qgs"][qg]["questions"][sequence]["qname"]+"',"+str(data[qgid][institution_id]["qgs"][qg]["questions"][sequence]["qid"])+","+sequence+","+str(data[qgid][institution_id]["qgs"][qg]["questions"][sequence]["yescount"])+","+str(data[qgid][institution_id]["qgs"][qg]["questions"][sequence]["nocount"])+","+str(data[qgid][institution_id]["qgs"][qg]["questions"][sequence]["numcount"])
-            sqlinsert = sqlinsert+");"
+            sqlinsert = sqlinsert+","+str(data[qgid][institution_id]["qgs"][qg]["total_correctcount"])+","+str(data[qgid][institution_id]["qgs"][qg]["total_numcount"])+");"
         cursor.execute(sqlinsert)
     
 conn.commit()
