@@ -1,0 +1,161 @@
+- columns:
+  - {avg: true, column_name: institution_id, sum: true, type: INTEGER}
+  - {avg: true, column_name: numcount1, sum: true, type: INTEGER}
+  - {avg: true, column_name: numcount10, sum: true, type: INTEGER}
+  - {avg: true, column_name: numcount11, sum: true, type: INTEGER}
+  - {avg: true, column_name: numcount12, sum: true, type: INTEGER}
+  - {avg: true, column_name: numcount13, sum: true, type: INTEGER}
+  - {avg: true, column_name: numcount14, sum: true, type: INTEGER}
+  - {avg: true, column_name: numcount15, sum: true, type: INTEGER}
+  - {avg: true, column_name: numcount16, sum: true, type: INTEGER}
+  - {avg: true, column_name: numcount17, sum: true, type: INTEGER}
+  - {avg: true, column_name: numcount18, sum: true, type: INTEGER}
+  - {avg: true, column_name: numcount19, sum: true, type: INTEGER}
+  - {avg: true, column_name: numcount2, sum: true, type: INTEGER}
+  - {avg: true, column_name: numcount20, sum: true, type: INTEGER}
+  - {avg: true, column_name: numcount3, sum: true, type: INTEGER}
+  - {avg: true, column_name: numcount4, sum: true, type: INTEGER}
+  - {avg: true, column_name: numcount5, sum: true, type: INTEGER}
+  - {avg: true, column_name: numcount6, sum: true, type: INTEGER}
+  - {avg: true, column_name: numcount7, sum: true, type: INTEGER}
+  - {avg: true, column_name: numcount8, sum: true, type: INTEGER}
+  - {avg: true, column_name: numcount9, sum: true, type: INTEGER}
+  - {avg: true, column_name: qid1, sum: true, type: INTEGER}
+  - {avg: true, column_name: qid10, sum: true, type: INTEGER}
+  - {avg: true, column_name: qid11, sum: true, type: INTEGER}
+  - {avg: true, column_name: qid12, sum: true, type: INTEGER}
+  - {avg: true, column_name: qid13, sum: true, type: INTEGER}
+  - {avg: true, column_name: qid14, sum: true, type: INTEGER}
+  - {avg: true, column_name: qid15, sum: true, type: INTEGER}
+  - {avg: true, column_name: qid16, sum: true, type: INTEGER}
+  - {avg: true, column_name: qid17, sum: true, type: INTEGER}
+  - {avg: true, column_name: qid18, sum: true, type: INTEGER}
+  - {avg: true, column_name: qid19, sum: true, type: INTEGER}
+  - {avg: true, column_name: qid2, sum: true, type: INTEGER}
+  - {avg: true, column_name: qid20, sum: true, type: INTEGER}
+  - {avg: true, column_name: qid3, sum: true, type: INTEGER}
+  - {avg: true, column_name: qid4, sum: true, type: INTEGER}
+  - {avg: true, column_name: qid5, sum: true, type: INTEGER}
+  - {avg: true, column_name: qid6, sum: true, type: INTEGER}
+  - {avg: true, column_name: qid7, sum: true, type: INTEGER}
+  - {avg: true, column_name: qid8, sum: true, type: INTEGER}
+  - {avg: true, column_name: qid9, sum: true, type: INTEGER}
+  - {avg: true, column_name: total_correctcount, sum: true, type: INTEGER}
+  - {avg: true, column_name: total_numcount, sum: true, type: INTEGER}
+  - {avg: true, column_name: yescount1, sum: true, type: INTEGER}
+  - {avg: true, column_name: yescount10, sum: true, type: INTEGER}
+  - {avg: true, column_name: yescount11, sum: true, type: INTEGER}
+  - {avg: true, column_name: yescount12, sum: true, type: INTEGER}
+  - {avg: true, column_name: yescount13, sum: true, type: INTEGER}
+  - {avg: true, column_name: yescount14, sum: true, type: INTEGER}
+  - {avg: true, column_name: yescount15, sum: true, type: INTEGER}
+  - {avg: true, column_name: yescount16, sum: true, type: INTEGER}
+  - {avg: true, column_name: yescount17, sum: true, type: INTEGER}
+  - {avg: true, column_name: yescount18, sum: true, type: INTEGER}
+  - {avg: true, column_name: yescount19, sum: true, type: INTEGER}
+  - {avg: true, column_name: yescount2, sum: true, type: INTEGER}
+  - {avg: true, column_name: yescount20, sum: true, type: INTEGER}
+  - {avg: true, column_name: yescount3, sum: true, type: INTEGER}
+  - {avg: true, column_name: yescount4, sum: true, type: INTEGER}
+  - {avg: true, column_name: yescount5, sum: true, type: INTEGER}
+  - {avg: true, column_name: yescount6, sum: true, type: INTEGER}
+  - {avg: true, column_name: yescount7, sum: true, type: INTEGER}
+  - {avg: true, column_name: yescount8, sum: true, type: INTEGER}
+  - {avg: true, column_name: yescount9, sum: true, type: INTEGER}
+  - {column_name: block, database_expression: '', description: '', filterable: true,
+    groupby: true, python_date_format: '', type: VARCHAR(50), verbose_name: Block}
+  - {column_name: class, filterable: true, groupby: true, type: VARCHAR(50)}
+  - {column_name: cluster, database_expression: '', description: '', filterable: true,
+    groupby: true, python_date_format: '', type: VARCHAR(50), verbose_name: Cluster}
+  - {column_name: district, database_expression: '', description: '', filterable: true,
+    groupby: true, python_date_format: '', type: VARCHAR(50), verbose_name: District}
+  - {column_name: gp, filterable: true, groupby: true, type: VARCHAR(100)}
+  - {column_name: institution_name, filterable: true, groupby: true, type: VARCHAR(100)}
+  - {column_name: qname1, filterable: true, groupby: true, type: VARCHAR(50)}
+  - {column_name: qname10, filterable: true, groupby: true, type: VARCHAR(50)}
+  - {column_name: qname11, filterable: true, groupby: true, type: VARCHAR(50)}
+  - {column_name: qname12, filterable: true, groupby: true, type: VARCHAR(50)}
+  - {column_name: qname13, filterable: true, groupby: true, type: VARCHAR(50)}
+  - {column_name: qname14, filterable: true, groupby: true, type: VARCHAR(50)}
+  - {column_name: qname15, filterable: true, groupby: true, type: VARCHAR(50)}
+  - {column_name: qname16, filterable: true, groupby: true, type: VARCHAR(50)}
+  - {column_name: qname17, filterable: true, groupby: true, type: VARCHAR(50)}
+  - {column_name: qname18, filterable: true, groupby: true, type: VARCHAR(50)}
+  - {column_name: qname19, filterable: true, groupby: true, type: VARCHAR(50)}
+  - {column_name: qname2, filterable: true, groupby: true, type: VARCHAR(50)}
+  - {column_name: qname20, filterable: true, groupby: true, type: VARCHAR(50)}
+  - {column_name: qname3, filterable: true, groupby: true, type: VARCHAR(50)}
+  - {column_name: qname4, filterable: true, groupby: true, type: VARCHAR(50)}
+  - {column_name: qname5, filterable: true, groupby: true, type: VARCHAR(50)}
+  - {column_name: qname6, filterable: true, groupby: true, type: VARCHAR(50)}
+  - {column_name: qname7, filterable: true, groupby: true, type: VARCHAR(50)}
+  - {column_name: qname8, filterable: true, groupby: true, type: VARCHAR(50)}
+  - {column_name: qname9, filterable: true, groupby: true, type: VARCHAR(50)}
+  - {column_name: state, database_expression: '', description: '', filterable: true,
+    groupby: true, python_date_format: '', type: VARCHAR(50), verbose_name: State}
+  metrics:
+  - {d3format: '', description: '', expression: SUM(total_correctcount)*100/SUM(total_numcount),
+    metric_name: Total Performance Percentage, metric_type: '', verbose_name: Total
+      Performance Percentage}
+  - {d3format: '', description: '', expression: SUM(yescount1)*100/SUM(numcount1),
+    metric_name: Q1 Perfromance Percentage, metric_type: '', verbose_name: Q1 Perfromance
+      Percentage}
+  - {d3format: '', description: '', expression: SUM(yescount10)*100/SUM(numcount10),
+    metric_name: Q10 Perfromance Percentage, metric_type: '', verbose_name: Q10 Perfromance
+      Percentage}
+  - {d3format: '', description: '', expression: SUM(yescount11)*100/SUM(numcount11),
+    metric_name: Q11 Perfromance Percentage, metric_type: '', verbose_name: Q11 Perfromance
+      Percentage}
+  - {d3format: '', description: '', expression: SUM(yescount12)*100/SUM(numcount12),
+    metric_name: Q12 Perfromance Percentage, metric_type: '', verbose_name: Q12 Perfromance
+      Percentage}
+  - {d3format: '', description: '', expression: SUM(yescount13)*100/SUM(numcount13),
+    metric_name: Q13 Perfromance Percentage, metric_type: '', verbose_name: Q13 Perfromance
+      Percentage}
+  - {d3format: '', description: '', expression: SUM(yescount14)*100/SUM(numcount14),
+    metric_name: Q14 Perfromance Percentage, metric_type: '', verbose_name: Q14 Perfromance
+      Percentage}
+  - {d3format: '', description: '', expression: SUM(yescount15)*100/SUM(numcount15),
+    metric_name: Q15 Perfromance Percentage, metric_type: '', verbose_name: Q15 Perfromance
+      Percentage}
+  - {d3format: '', description: '', expression: SUM(yescount16)*100/SUM(numcount16),
+    metric_name: Q16 Perfromance Percentage, metric_type: '', verbose_name: Q16 Perfromance
+      Percentage}
+  - {d3format: '', description: '', expression: SUM(yescount17)*100/SUM(numcount17),
+    metric_name: Q17 Perfromance Percentage, metric_type: '', verbose_name: Q17 Perfromance
+      Percentage}
+  - {d3format: '', description: '', expression: SUM(yescount18)*100/SUM(numcount18),
+    metric_name: Q18 Perfromance Percentage, metric_type: '', verbose_name: Q18 Perfromance
+      Percentage}
+  - {d3format: '', description: '', expression: SUM(yescount19)*100/SUM(numcount19),
+    metric_name: Q19 Perfromance Percentage, metric_type: '', verbose_name: Q19 Perfromance
+      Percentage}
+  - {d3format: '', description: '', expression: SUM(yescount2)*100/SUM(numcount2),
+    metric_name: Q2 Perfromance Percentage, metric_type: '', verbose_name: Q2 Perfromance
+      Percentage}
+  - {d3format: '', description: '', expression: SUM(yescount20)*100/SUM(numcount20),
+    metric_name: Q20 Perfromance Percentage, metric_type: '', verbose_name: Q20 Perfromance
+      Percentage}
+  - {d3format: '', description: '', expression: SUM(yescount3)*100/SUM(numcount3),
+    metric_name: Q3 Perfromance Percentage, metric_type: '', verbose_name: Q3 Perfromance
+      Percentage}
+  - {d3format: '', description: '', expression: SUM(yescount4)*100/SUM(numcount4),
+    metric_name: Q4 Perfromance Percentage, metric_type: '', verbose_name: Q4 Perfromance
+      Percentage}
+  - {d3format: '', description: '', expression: SUM(yescount5)*100/SUM(numcount5),
+    metric_name: Q5 Perfromance Percentage, metric_type: '', verbose_name: Q5 Perfromance
+      Percentage}
+  - {d3format: '', description: '', expression: SUM(yescount6)*100/SUM(numcount6),
+    metric_name: Q6 Perfromance Percentage, metric_type: '', verbose_name: Q6 Perfromance
+      Percentage}
+  - {d3format: '', description: '', expression: SUM(yescount7)*100/SUM(numcount7),
+    metric_name: Q7 Perfromance Percentage, metric_type: '', verbose_name: Q7 Perfromance
+      Percentage}
+  - {d3format: '', description: '', expression: SUM(yescount8)*100/SUM(numcount8),
+    metric_name: Q8 Perfromance Percentage, metric_type: '', verbose_name: Q8 Perfromance
+      Percentage}
+  - {d3format: '', description: '', expression: SUM(yescount9)*100/SUM(numcount9),
+    metric_name: Q9 Perfromance Percentage, metric_type: '', verbose_name: Q9 Perfromance
+      Percentage}
+  schema: ''
+  table_name: superset_21
