@@ -1,0 +1,913 @@
+databases:
+- allow_csv_upload: true
+  database_name: main
+  expose_in_sqllab: true
+  sqlalchemy_uri: sqlite:////home/nabeel/.superset/superset.db
+  tables: []
+- database_name: ilp
+  extra: "{\r\n    \"metadata_params\": {},\r\n    \"engine_params\": {},\r\n    \"\
+    metadata_cache_timeout\": {},\r\n    \"schemas_allowed_for_csv_upload\": []\r\n\
+    }\r\n"
+  sqlalchemy_uri: postgresql://nabeel:XXXXXXXXXX@localhost/ilpproduction
+  tables:
+  - columns:
+    - avg: true
+      column_name: institution_id
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: numcount1
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: numcount10
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: numcount11
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: numcount12
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: numcount13
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: numcount14
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: numcount15
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: numcount16
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: numcount17
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: numcount18
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: numcount19
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: numcount2
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: numcount20
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: numcount3
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: numcount4
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: numcount5
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: numcount6
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: numcount7
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: numcount8
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: numcount9
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: qid1
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: qid10
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: qid11
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: qid12
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: qid13
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: qid14
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: qid15
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: qid16
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: qid17
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: qid18
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: qid19
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: qid2
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: qid20
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: qid3
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: qid4
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: qid5
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: qid6
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: qid7
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: qid8
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: qid9
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: total_correctcount
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: total_numcount
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: yescount1
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: yescount10
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: yescount11
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: yescount12
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: yescount13
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: yescount14
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: yescount15
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: yescount16
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: yescount17
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: yescount18
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: yescount19
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: yescount2
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: yescount20
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: yescount3
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: yescount4
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: yescount5
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: yescount6
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: yescount7
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: yescount8
+      sum: true
+      type: INTEGER
+    - avg: true
+      column_name: yescount9
+      sum: true
+      type: INTEGER
+    - column_name: block
+      filterable: true
+      groupby: true
+      type: VARCHAR(50)
+    - column_name: class
+      filterable: true
+      groupby: true
+      type: VARCHAR(50)
+    - column_name: cluster
+      filterable: true
+      groupby: true
+      type: VARCHAR(50)
+    - column_name: district
+      filterable: true
+      groupby: true
+      type: VARCHAR(50)
+    - column_name: gender
+      filterable: true
+      groupby: true
+      type: VARCHAR(50)
+    - column_name: gp
+      filterable: true
+      groupby: true
+      type: VARCHAR(100)
+    - column_name: institution_name
+      filterable: true
+      groupby: true
+      type: VARCHAR(100)
+    - column_name: qname1
+      filterable: true
+      groupby: true
+      type: VARCHAR(50)
+    - column_name: qname10
+      filterable: true
+      groupby: true
+      type: VARCHAR(50)
+    - column_name: qname11
+      filterable: true
+      groupby: true
+      type: VARCHAR(50)
+    - column_name: qname12
+      filterable: true
+      groupby: true
+      type: VARCHAR(50)
+    - column_name: qname13
+      filterable: true
+      groupby: true
+      type: VARCHAR(50)
+    - column_name: qname14
+      filterable: true
+      groupby: true
+      type: VARCHAR(50)
+    - column_name: qname15
+      filterable: true
+      groupby: true
+      type: VARCHAR(50)
+    - column_name: qname16
+      filterable: true
+      groupby: true
+      type: VARCHAR(50)
+    - column_name: qname17
+      filterable: true
+      groupby: true
+      type: VARCHAR(50)
+    - column_name: qname18
+      filterable: true
+      groupby: true
+      type: VARCHAR(50)
+    - column_name: qname19
+      filterable: true
+      groupby: true
+      type: VARCHAR(50)
+    - column_name: qname2
+      filterable: true
+      groupby: true
+      type: VARCHAR(50)
+    - column_name: qname20
+      filterable: true
+      groupby: true
+      type: VARCHAR(50)
+    - column_name: qname3
+      filterable: true
+      groupby: true
+      type: VARCHAR(50)
+    - column_name: qname4
+      filterable: true
+      groupby: true
+      type: VARCHAR(50)
+    - column_name: qname5
+      filterable: true
+      groupby: true
+      type: VARCHAR(50)
+    - column_name: qname6
+      filterable: true
+      groupby: true
+      type: VARCHAR(50)
+    - column_name: qname7
+      filterable: true
+      groupby: true
+      type: VARCHAR(50)
+    - column_name: qname8
+      filterable: true
+      groupby: true
+      type: VARCHAR(50)
+    - column_name: qname9
+      filterable: true
+      groupby: true
+      type: VARCHAR(50)
+    - column_name: state
+      filterable: true
+      groupby: true
+      type: VARCHAR(50)
+    - column_name: village
+      filterable: true
+      groupby: true
+      type: VARCHAR(100)
+    metrics:
+    - d3format: ''
+      description: ''
+      expression: SUM(total_correctcount)*100/SUM(total_numcount)
+      metric_name: Total Performance Percentage
+      metric_type: ''
+      verbose_name: Total Performance Percentage
+      warning_text: ''
+    - d3format: ''
+      description: ''
+      expression: SUM(yescount1)*100/SUM(numcount1)
+      metric_name: Q1 Performance Percentage
+      metric_type: ''
+      verbose_name: Q1 Performance Percentage
+      warning_text: ''
+    - d3format: ''
+      description: ''
+      expression: SUM(yescount2)*100/SUM(numcount2)
+      metric_name: Q2 Performance Percentage
+      metric_type: ''
+      verbose_name: Q2 Performance Percentage
+      warning_text: ''
+    - d3format: ''
+      description: ''
+      expression: SUM(yescount3)*100/SUM(numcount3)
+      metric_name: Q3 Performance Percentage
+      metric_type: ''
+      verbose_name: Q3 Performance Percentage
+      warning_text: ''
+    - d3format: ''
+      description: ''
+      expression: SUM(yescount4)*100/SUM(numcount4)
+      metric_name: Q4 Performance Percentage
+      metric_type: ''
+      verbose_name: Q4 Performance Percentage
+      warning_text: ''
+    - d3format: ''
+      description: ''
+      expression: SUM(yescount5)*100/SUM(numcount5)
+      metric_name: Q5 Performance Percentage
+      metric_type: ''
+      verbose_name: Q5 Performance Percentage
+      warning_text: ''
+    - d3format: ''
+      description: ''
+      expression: SUM(yescount6)*100/SUM(numcount6)
+      metric_name: Q6 Performance Percentage
+      metric_type: ''
+      verbose_name: Q6 Performance Percentage
+      warning_text: ''
+    - d3format: ''
+      description: ''
+      expression: SUM(yescount7)*100/SUM(numcount7)
+      metric_name: Q7 Performance Percentage
+      metric_type: ''
+      verbose_name: Q7 Performance Percentage
+      warning_text: ''
+    - d3format: ''
+      description: ''
+      expression: SUM(yescount8)*100/SUM(numcount8)
+      metric_name: Q8 Performance Percentage
+      metric_type: ''
+      verbose_name: Q8 Performance Percentage
+      warning_text: ''
+    - d3format: ''
+      description: ''
+      expression: SUM(yescount9)*100/SUM(numcount9)
+      metric_name: Q9 Performance Percentage
+      metric_type: ''
+      verbose_name: Q9 Performance Percentage
+      warning_text: ''
+    - d3format: ''
+      description: ''
+      expression: SUM(yescount10)*100/SUM(numcount10)
+      metric_name: Q10 Performance Percentage
+      metric_type: ''
+      verbose_name: Q10 Performance Percentage
+      warning_text: ''
+    - d3format: ''
+      description: ''
+      expression: SUM(yescount11)*100/SUM(numcount11)
+      metric_name: Q11 Performance Percentage
+      metric_type: ''
+      verbose_name: Q11 Performance Percentage
+      warning_text: ''
+    - d3format: ''
+      description: ''
+      expression: SUM(yescount12)*100/SUM(numcount12)
+      metric_name: Q12 Performance Percentage
+      metric_type: ''
+      verbose_name: Q12 Performance Percentage
+      warning_text: ''
+    - d3format: ''
+      description: ''
+      expression: SUM(yescount13)*100/SUM(numcount13)
+      metric_name: Q13 Performance Percentage
+      metric_type: ''
+      verbose_name: Q13 Performance Percentage
+      warning_text: ''
+    - d3format: ''
+      description: ''
+      expression: SUM(yescount14)*100/SUM(numcount14)
+      metric_name: Q14 Performance Percentage
+      metric_type: ''
+      verbose_name: Q14 Performance Percentage
+      warning_text: ''
+    - d3format: ''
+      description: ''
+      expression: SUM(yescount15)*100/SUM(numcount15)
+      metric_name: Q15 Performance Percentage
+      metric_type: ''
+      verbose_name: Q15 Performance Percentage
+      warning_text: ''
+    - d3format: ''
+      description: ''
+      expression: SUM(yescount16)*100/SUM(numcount16)
+      metric_name: Q16 Performance Percentage
+      metric_type: ''
+      verbose_name: Q16 Performance Percentage
+      warning_text: ''
+    - d3format: ''
+      description: ''
+      expression: SUM(yescount17)*100/SUM(numcount17)
+      metric_name: Q17 Performance Percentage
+      metric_type: ''
+      verbose_name: Q17 Performance Percentage
+      warning_text: ''
+    - d3format: ''
+      description: ''
+      expression: SUM(yescount18)*100/SUM(numcount18)
+      metric_name: Q18 Performance Percentage
+      metric_type: ''
+      verbose_name: Q18 Performance Percentage
+      warning_text: ''
+    - d3format: ''
+      description: ''
+      expression: SUM(yescount19)*100/SUM(numcount19)
+      metric_name: Q19 Performance Percentage
+      metric_type: ''
+      verbose_name: Q19 Performance Percentage
+      warning_text: ''
+    - d3format: ''
+      description: ''
+      expression: SUM(yescount20)*100/SUM(numcount20)
+      metric_name: Q20 Performance Percentage
+      metric_type: ''
+      verbose_name: Q20 Performance Percentage
+      warning_text: ''
+    - expression: AVG(institution_id)
+      metric_name: avg__institution_id
+      metric_type: avg
+    - expression: AVG(numcount1)
+      metric_name: avg__numcount1
+      metric_type: avg
+    - expression: AVG(numcount10)
+      metric_name: avg__numcount10
+      metric_type: avg
+    - expression: AVG(numcount11)
+      metric_name: avg__numcount11
+      metric_type: avg
+    - expression: AVG(numcount12)
+      metric_name: avg__numcount12
+      metric_type: avg
+    - expression: AVG(numcount13)
+      metric_name: avg__numcount13
+      metric_type: avg
+    - expression: AVG(numcount14)
+      metric_name: avg__numcount14
+      metric_type: avg
+    - expression: AVG(numcount15)
+      metric_name: avg__numcount15
+      metric_type: avg
+    - expression: AVG(numcount16)
+      metric_name: avg__numcount16
+      metric_type: avg
+    - expression: AVG(numcount17)
+      metric_name: avg__numcount17
+      metric_type: avg
+    - expression: AVG(numcount18)
+      metric_name: avg__numcount18
+      metric_type: avg
+    - expression: AVG(numcount19)
+      metric_name: avg__numcount19
+      metric_type: avg
+    - expression: AVG(numcount2)
+      metric_name: avg__numcount2
+      metric_type: avg
+    - expression: AVG(numcount20)
+      metric_name: avg__numcount20
+      metric_type: avg
+    - expression: AVG(numcount3)
+      metric_name: avg__numcount3
+      metric_type: avg
+    - expression: AVG(numcount4)
+      metric_name: avg__numcount4
+      metric_type: avg
+    - expression: AVG(numcount5)
+      metric_name: avg__numcount5
+      metric_type: avg
+    - expression: AVG(numcount6)
+      metric_name: avg__numcount6
+      metric_type: avg
+    - expression: AVG(numcount7)
+      metric_name: avg__numcount7
+      metric_type: avg
+    - expression: AVG(numcount8)
+      metric_name: avg__numcount8
+      metric_type: avg
+    - expression: AVG(numcount9)
+      metric_name: avg__numcount9
+      metric_type: avg
+    - expression: AVG(qid1)
+      metric_name: avg__qid1
+      metric_type: avg
+    - expression: AVG(qid10)
+      metric_name: avg__qid10
+      metric_type: avg
+    - expression: AVG(qid11)
+      metric_name: avg__qid11
+      metric_type: avg
+    - expression: AVG(qid12)
+      metric_name: avg__qid12
+      metric_type: avg
+    - expression: AVG(qid13)
+      metric_name: avg__qid13
+      metric_type: avg
+    - expression: AVG(qid14)
+      metric_name: avg__qid14
+      metric_type: avg
+    - expression: AVG(qid15)
+      metric_name: avg__qid15
+      metric_type: avg
+    - expression: AVG(qid16)
+      metric_name: avg__qid16
+      metric_type: avg
+    - expression: AVG(qid17)
+      metric_name: avg__qid17
+      metric_type: avg
+    - expression: AVG(qid18)
+      metric_name: avg__qid18
+      metric_type: avg
+    - expression: AVG(qid19)
+      metric_name: avg__qid19
+      metric_type: avg
+    - expression: AVG(qid2)
+      metric_name: avg__qid2
+      metric_type: avg
+    - expression: AVG(qid20)
+      metric_name: avg__qid20
+      metric_type: avg
+    - expression: AVG(qid3)
+      metric_name: avg__qid3
+      metric_type: avg
+    - expression: AVG(qid4)
+      metric_name: avg__qid4
+      metric_type: avg
+    - expression: AVG(qid5)
+      metric_name: avg__qid5
+      metric_type: avg
+    - expression: AVG(qid6)
+      metric_name: avg__qid6
+      metric_type: avg
+    - expression: AVG(qid7)
+      metric_name: avg__qid7
+      metric_type: avg
+    - expression: AVG(qid8)
+      metric_name: avg__qid8
+      metric_type: avg
+    - expression: AVG(qid9)
+      metric_name: avg__qid9
+      metric_type: avg
+    - expression: AVG(total_correctcount)
+      metric_name: avg__total_correctcount
+      metric_type: avg
+    - expression: AVG(total_numcount)
+      metric_name: avg__total_numcount
+      metric_type: avg
+    - expression: AVG(yescount1)
+      metric_name: avg__yescount1
+      metric_type: avg
+    - expression: AVG(yescount10)
+      metric_name: avg__yescount10
+      metric_type: avg
+    - expression: AVG(yescount11)
+      metric_name: avg__yescount11
+      metric_type: avg
+    - expression: AVG(yescount12)
+      metric_name: avg__yescount12
+      metric_type: avg
+    - expression: AVG(yescount13)
+      metric_name: avg__yescount13
+      metric_type: avg
+    - expression: AVG(yescount14)
+      metric_name: avg__yescount14
+      metric_type: avg
+    - expression: AVG(yescount15)
+      metric_name: avg__yescount15
+      metric_type: avg
+    - expression: AVG(yescount16)
+      metric_name: avg__yescount16
+      metric_type: avg
+    - expression: AVG(yescount17)
+      metric_name: avg__yescount17
+      metric_type: avg
+    - expression: AVG(yescount18)
+      metric_name: avg__yescount18
+      metric_type: avg
+    - expression: AVG(yescount19)
+      metric_name: avg__yescount19
+      metric_type: avg
+    - expression: AVG(yescount2)
+      metric_name: avg__yescount2
+      metric_type: avg
+    - expression: AVG(yescount20)
+      metric_name: avg__yescount20
+      metric_type: avg
+    - expression: AVG(yescount3)
+      metric_name: avg__yescount3
+      metric_type: avg
+    - expression: AVG(yescount4)
+      metric_name: avg__yescount4
+      metric_type: avg
+    - expression: AVG(yescount5)
+      metric_name: avg__yescount5
+      metric_type: avg
+    - expression: AVG(yescount6)
+      metric_name: avg__yescount6
+      metric_type: avg
+    - expression: AVG(yescount7)
+      metric_name: avg__yescount7
+      metric_type: avg
+    - expression: AVG(yescount8)
+      metric_name: avg__yescount8
+      metric_type: avg
+    - expression: AVG(yescount9)
+      metric_name: avg__yescount9
+      metric_type: avg
+    - expression: COUNT(*)
+      metric_name: count
+      metric_type: count
+      verbose_name: COUNT(*)
+    - expression: SUM(institution_id)
+      metric_name: sum__institution_id
+      metric_type: sum
+    - expression: SUM(numcount1)
+      metric_name: sum__numcount1
+      metric_type: sum
+    - expression: SUM(numcount10)
+      metric_name: sum__numcount10
+      metric_type: sum
+    - expression: SUM(numcount11)
+      metric_name: sum__numcount11
+      metric_type: sum
+    - expression: SUM(numcount12)
+      metric_name: sum__numcount12
+      metric_type: sum
+    - expression: SUM(numcount13)
+      metric_name: sum__numcount13
+      metric_type: sum
+    - expression: SUM(numcount14)
+      metric_name: sum__numcount14
+      metric_type: sum
+    - expression: SUM(numcount15)
+      metric_name: sum__numcount15
+      metric_type: sum
+    - expression: SUM(numcount16)
+      metric_name: sum__numcount16
+      metric_type: sum
+    - expression: SUM(numcount17)
+      metric_name: sum__numcount17
+      metric_type: sum
+    - expression: SUM(numcount18)
+      metric_name: sum__numcount18
+      metric_type: sum
+    - expression: SUM(numcount19)
+      metric_name: sum__numcount19
+      metric_type: sum
+    - expression: SUM(numcount2)
+      metric_name: sum__numcount2
+      metric_type: sum
+    - expression: SUM(numcount20)
+      metric_name: sum__numcount20
+      metric_type: sum
+    - expression: SUM(numcount3)
+      metric_name: sum__numcount3
+      metric_type: sum
+    - expression: SUM(numcount4)
+      metric_name: sum__numcount4
+      metric_type: sum
+    - expression: SUM(numcount5)
+      metric_name: sum__numcount5
+      metric_type: sum
+    - expression: SUM(numcount6)
+      metric_name: sum__numcount6
+      metric_type: sum
+    - expression: SUM(numcount7)
+      metric_name: sum__numcount7
+      metric_type: sum
+    - expression: SUM(numcount8)
+      metric_name: sum__numcount8
+      metric_type: sum
+    - expression: SUM(numcount9)
+      metric_name: sum__numcount9
+      metric_type: sum
+    - expression: SUM(qid1)
+      metric_name: sum__qid1
+      metric_type: sum
+    - expression: SUM(qid10)
+      metric_name: sum__qid10
+      metric_type: sum
+    - expression: SUM(qid11)
+      metric_name: sum__qid11
+      metric_type: sum
+    - expression: SUM(qid12)
+      metric_name: sum__qid12
+      metric_type: sum
+    - expression: SUM(qid13)
+      metric_name: sum__qid13
+      metric_type: sum
+    - expression: SUM(qid14)
+      metric_name: sum__qid14
+      metric_type: sum
+    - expression: SUM(qid15)
+      metric_name: sum__qid15
+      metric_type: sum
+    - expression: SUM(qid16)
+      metric_name: sum__qid16
+      metric_type: sum
+    - expression: SUM(qid17)
+      metric_name: sum__qid17
+      metric_type: sum
+    - expression: SUM(qid18)
+      metric_name: sum__qid18
+      metric_type: sum
+    - expression: SUM(qid19)
+      metric_name: sum__qid19
+      metric_type: sum
+    - expression: SUM(qid2)
+      metric_name: sum__qid2
+      metric_type: sum
+    - expression: SUM(qid20)
+      metric_name: sum__qid20
+      metric_type: sum
+    - expression: SUM(qid3)
+      metric_name: sum__qid3
+      metric_type: sum
+    - expression: SUM(qid4)
+      metric_name: sum__qid4
+      metric_type: sum
+    - expression: SUM(qid5)
+      metric_name: sum__qid5
+      metric_type: sum
+    - expression: SUM(qid6)
+      metric_name: sum__qid6
+      metric_type: sum
+    - expression: SUM(qid7)
+      metric_name: sum__qid7
+      metric_type: sum
+    - expression: SUM(qid8)
+      metric_name: sum__qid8
+      metric_type: sum
+    - expression: SUM(qid9)
+      metric_name: sum__qid9
+      metric_type: sum
+    - expression: SUM(total_correctcount)
+      metric_name: sum__total_correctcount
+      metric_type: sum
+    - expression: SUM(total_numcount)
+      metric_name: sum__total_numcount
+      metric_type: sum
+    - expression: SUM(yescount1)
+      metric_name: sum__yescount1
+      metric_type: sum
+    - expression: SUM(yescount10)
+      metric_name: sum__yescount10
+      metric_type: sum
+    - expression: SUM(yescount11)
+      metric_name: sum__yescount11
+      metric_type: sum
+    - expression: SUM(yescount12)
+      metric_name: sum__yescount12
+      metric_type: sum
+    - expression: SUM(yescount13)
+      metric_name: sum__yescount13
+      metric_type: sum
+    - expression: SUM(yescount14)
+      metric_name: sum__yescount14
+      metric_type: sum
+    - expression: SUM(yescount15)
+      metric_name: sum__yescount15
+      metric_type: sum
+    - expression: SUM(yescount16)
+      metric_name: sum__yescount16
+      metric_type: sum
+    - expression: SUM(yescount17)
+      metric_name: sum__yescount17
+      metric_type: sum
+    - expression: SUM(yescount18)
+      metric_name: sum__yescount18
+      metric_type: sum
+    - expression: SUM(yescount19)
+      metric_name: sum__yescount19
+      metric_type: sum
+    - expression: SUM(yescount2)
+      metric_name: sum__yescount2
+      metric_type: sum
+    - expression: SUM(yescount20)
+      metric_name: sum__yescount20
+      metric_type: sum
+    - expression: SUM(yescount3)
+      metric_name: sum__yescount3
+      metric_type: sum
+    - expression: SUM(yescount4)
+      metric_name: sum__yescount4
+      metric_type: sum
+    - expression: SUM(yescount5)
+      metric_name: sum__yescount5
+      metric_type: sum
+    - expression: SUM(yescount6)
+      metric_name: sum__yescount6
+      metric_type: sum
+    - expression: SUM(yescount7)
+      metric_name: sum__yescount7
+      metric_type: sum
+    - expression: SUM(yescount8)
+      metric_name: sum__yescount8
+      metric_type: sum
+    - expression: SUM(yescount9)
+      metric_name: sum__yescount9
+      metric_type: sum
+    schema: ''
+    table_name: superset_21
