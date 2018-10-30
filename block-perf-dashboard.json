@@ -20,7 +20,7 @@
                 "slices": [
                     {
                         "__Slice__": {
-                            "perm": "[ilp].[superset_21](id:1)",
+                            "perm": "[ilp].[superset_2](id:1)",
                             "description": null,
                             "viz_type": "directed_force",
                             "datasource_type": "table",
@@ -31,8 +31,8 @@
                             },
                             "created_by_fk": 1,
                             "cache_timeout": null,
-                            "params": "{\"datasource\": \"1__table\", \"viz_type\": \"directed_force\", \"slice_id\": 11, \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"groupby\": [\"district\", \"block\"], \"metric\": \"Total Performance Percentage\", \"adhoc_filters\": [], \"row_limit\": 10000, \"link_length\": \"75\", \"charge\": \"-500\", \"remote_id\": 11, \"datasource_name\": \"superset_21\", \"schema\": \"superset_21\", \"database_name\": \"ilp\"}",
-                            "datasource_name": "superset_21",
+                            "params": "{\"datasource\": \"1__table\", \"viz_type\": \"directed_force\", \"slice_id\": 11, \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"groupby\": [\"district\", \"block\"], \"metric\": \"Total Performance Percentage\", \"adhoc_filters\": [], \"row_limit\": 10000, \"link_length\": \"75\", \"charge\": \"-500\", \"remote_id\": 11, \"datasource_name\": \"superset_2\", \"schema\": \"superset_2\", \"database_name\": \"ilp\"}",
+                            "datasource_name": "superset_2",
                             "datasource_id": 1,
                             "changed_on": {
                                 "__datetime__": "2018-10-23T15:18:28"
@@ -42,7 +42,7 @@
                     },
                     {
                         "__Slice__": {
-                            "perm": "[ilp].[superset_21](id:1)",
+                            "perm": "[ilp].[superset_2](id:1)",
                             "description": null,
                             "viz_type": "table",
                             "datasource_type": "table",
@@ -53,8 +53,8 @@
                             },
                             "created_by_fk": 1,
                             "cache_timeout": null,
-                            "params": "{\"datasource\": \"1__table\", \"viz_type\": \"table\", \"slice_id\": 12, \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"groupby\": [\"block\", \"village\"], \"metrics\": [\"Total Performance Percentage\"], \"percent_metrics\": [], \"timeseries_limit_metric\": null, \"row_limit\": 10000, \"include_time\": false, \"order_desc\": true, \"all_columns\": [], \"order_by_cols\": [], \"adhoc_filters\": [], \"table_timestamp_format\": \"%Y-%m-%d %H:%M:%S\", \"page_length\": 0, \"include_search\": false, \"table_filter\": false, \"align_pn\": false, \"color_pn\": true, \"remote_id\": 12, \"datasource_name\": \"superset_21\", \"schema\": \"superset_21\", \"database_name\": \"ilp\"}",
-                            "datasource_name": "superset_21",
+                            "params": "{\"datasource\": \"1__table\", \"viz_type\": \"table\", \"slice_id\": 12, \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"groupby\": [\"block\", \"village\"], \"metrics\": [\"Total Performance Percentage\"], \"percent_metrics\": [], \"timeseries_limit_metric\": null, \"row_limit\": 10000, \"include_time\": false, \"order_desc\": true, \"all_columns\": [], \"order_by_cols\": [], \"adhoc_filters\": [], \"table_timestamp_format\": \"%Y-%m-%d %H:%M:%S\", \"page_length\": 0, \"include_search\": false, \"table_filter\": false, \"align_pn\": false, \"color_pn\": true, \"remote_id\": 12, \"datasource_name\": \"superset_2\", \"schema\": \"superset_2\", \"database_name\": \"ilp\"}",
+                            "datasource_name": "superset_2",
                             "datasource_id": 1,
                             "changed_on": {
                                 "__datetime__": "2018-10-23T15:18:28"
@@ -64,7 +64,7 @@
                     },
                     {
                         "__Slice__": {
-                            "perm": "[ilp].[superset_21](id:1)",
+                            "perm": "[ilp].[superset_2](id:1)",
                             "description": null,
                             "viz_type": "filter_box",
                             "datasource_type": "table",
@@ -75,8 +75,8 @@
                             },
                             "created_by_fk": 1,
                             "cache_timeout": null,
-                            "params": "{\"datasource\": \"1__table\", \"viz_type\": \"filter_box\", \"slice_id\": 1, \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"groupby\": [\"district\"], \"metric\": \"Total Performance Percentage\", \"adhoc_filters\": [], \"date_filter\": false, \"instant_filtering\": true, \"show_sqla_time_granularity\": false, \"show_sqla_time_column\": false, \"show_druid_time_granularity\": false, \"show_druid_time_origin\": false, \"remote_id\": 1, \"datasource_name\": \"superset_21\", \"schema\": \"superset_21\", \"database_name\": \"ilp\"}",
-                            "datasource_name": "superset_21",
+                            "params": "{\"datasource\": \"1__table\", \"viz_type\": \"filter_box\", \"slice_id\": 1, \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"groupby\": [\"district\"], \"metric\": \"Total Performance Percentage\", \"adhoc_filters\": [], \"date_filter\": false, \"instant_filtering\": true, \"show_sqla_time_granularity\": false, \"show_sqla_time_column\": false, \"show_druid_time_granularity\": false, \"show_druid_time_origin\": false, \"remote_id\": 1, \"datasource_name\": \"superset_2\", \"schema\": \"superset_2\", \"database_name\": \"ilp\"}",
+                            "datasource_name": "superset_2",
                             "datasource_id": 1,
                             "changed_on": {
                                 "__datetime__": "2018-10-23T15:18:28"
@@ -86,7 +86,7 @@
                     },
                     {
                         "__Slice__": {
-                            "perm": "[ilp].[superset_21](id:1)",
+                            "perm": "[ilp].[superset_2](id:1)",
                             "description": null,
                             "viz_type": "filter_box",
                             "datasource_type": "table",
@@ -97,8 +97,8 @@
                             },
                             "created_by_fk": 1,
                             "cache_timeout": null,
-                            "params": "{\"datasource\": \"1__table\", \"viz_type\": \"filter_box\", \"slice_id\": 2, \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"groupby\": [\"block\"], \"metric\": \"Total Performance Percentage\", \"adhoc_filters\": [], \"date_filter\": false, \"instant_filtering\": true, \"show_sqla_time_granularity\": false, \"show_sqla_time_column\": false, \"show_druid_time_granularity\": false, \"show_druid_time_origin\": false, \"remote_id\": 2, \"datasource_name\": \"superset_21\", \"schema\": \"superset_21\", \"database_name\": \"ilp\"}",
-                            "datasource_name": "superset_21",
+                            "params": "{\"datasource\": \"1__table\", \"viz_type\": \"filter_box\", \"slice_id\": 2, \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"groupby\": [\"block\"], \"metric\": \"Total Performance Percentage\", \"adhoc_filters\": [], \"date_filter\": false, \"instant_filtering\": true, \"show_sqla_time_granularity\": false, \"show_sqla_time_column\": false, \"show_druid_time_granularity\": false, \"show_druid_time_origin\": false, \"remote_id\": 2, \"datasource_name\": \"superset_2\", \"schema\": \"superset_2\", \"database_name\": \"ilp\"}",
+                            "datasource_name": "superset_2",
                             "datasource_id": 1,
                             "changed_on": {
                                 "__datetime__": "2018-10-23T15:18:28"
@@ -108,7 +108,7 @@
                     },
                     {
                         "__Slice__": {
-                            "perm": "[ilp].[superset_21](id:1)",
+                            "perm": "[ilp].[superset_2](id:1)",
                             "description": null,
                             "viz_type": "filter_box",
                             "datasource_type": "table",
@@ -119,8 +119,8 @@
                             },
                             "created_by_fk": 1,
                             "cache_timeout": null,
-                            "params": "{\"datasource\": \"1__table\", \"viz_type\": \"filter_box\", \"slice_id\": 3, \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"groupby\": [\"village\"], \"metric\": \"Total Performance Percentage\", \"adhoc_filters\": [], \"date_filter\": false, \"instant_filtering\": true, \"show_sqla_time_granularity\": false, \"show_sqla_time_column\": false, \"show_druid_time_granularity\": false, \"show_druid_time_origin\": false, \"remote_id\": 3, \"datasource_name\": \"superset_21\", \"schema\": \"superset_21\", \"database_name\": \"ilp\"}",
-                            "datasource_name": "superset_21",
+                            "params": "{\"datasource\": \"1__table\", \"viz_type\": \"filter_box\", \"slice_id\": 3, \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"groupby\": [\"village\"], \"metric\": \"Total Performance Percentage\", \"adhoc_filters\": [], \"date_filter\": false, \"instant_filtering\": true, \"show_sqla_time_granularity\": false, \"show_sqla_time_column\": false, \"show_druid_time_granularity\": false, \"show_druid_time_origin\": false, \"remote_id\": 3, \"datasource_name\": \"superset_2\", \"schema\": \"superset_2\", \"database_name\": \"ilp\"}",
+                            "datasource_name": "superset_2",
                             "datasource_id": 1,
                             "changed_on": {
                                 "__datetime__": "2018-10-23T15:18:28"
@@ -135,7 +135,7 @@
     "datasources": [
         {
             "__SqlaTable__": {
-                "table_name": "superset_21",
+                "table_name": "superset_2",
                 "description": null,
                 "template_params": null,
                 "main_dttm_col": null,
@@ -160,7 +160,7 @@
                 "params": "{\"remote_id\": 1, \"database_name\": \"ilp\"}",
                 "id": 1,
                 "is_sqllab_view": false,
-                "perm": "[ilp].[superset_21](id:1)",
+                "perm": "[ilp].[superset_2](id:1)",
                 "database": {
                     "__Database__": {
                         "id": 2,
@@ -172,7 +172,7 @@
                         "database_name": "ilp",
                         "created_by_fk": null,
                         "allow_csv_upload": false,
-                        "sqlalchemy_uri": "postgresql://nabeel:XXXXXXXXXX@localhost/ilpproduction",
+                        "sqlalchemy_uri": "postgresql://klp:\\u4<AKdnC~y268GF6v@dev.ilp.org.in/ilp",
                         "changed_by_fk": null,
                         "allow_ctas": false,
                         "password": null,

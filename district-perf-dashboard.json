@@ -20,7 +20,7 @@
                 "slices": [
                     {
                         "__Slice__": {
-                            "perm": "[ilp].[superset_21](id:1)",
+                            "perm": "[ilp].[superset_2](id:1)",
                             "description": null,
                             "viz_type": "dist_bar",
                             "datasource_type": "table",
@@ -31,8 +31,8 @@
                             },
                             "created_by_fk": 1,
                             "cache_timeout": null,
-                            "params": "{\"datasource\": \"1__table\", \"viz_type\": \"dist_bar\", \"slice_id\": 13, \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"metrics\": [\"Total Performance Percentage\"], \"adhoc_filters\": [], \"groupby\": [\"district\"], \"columns\": [\"class\"], \"row_limit\": 10000, \"contribution\": false, \"color_scheme\": \"bnbColors\", \"show_legend\": true, \"show_bar_value\": false, \"bar_stacked\": false, \"order_bars\": false, \"y_axis_format\": \".3s\", \"y_axis_label\": \"\", \"show_controls\": false, \"x_axis_label\": \"\", \"bottom_margin\": \"auto\", \"x_ticks_layout\": \"auto\", \"reduce_x_ticks\": false, \"remote_id\": 13, \"datasource_name\": \"superset_21\", \"schema\": \"superset_21\", \"database_name\": \"ilp\"}",
-                            "datasource_name": "superset_21",
+                            "params": "{\"datasource\": \"1__table\", \"viz_type\": \"dist_bar\", \"slice_id\": 13, \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"metrics\": [\"Total Performance Percentage\"], \"adhoc_filters\": [], \"groupby\": [\"district\"], \"columns\": [\"class\"], \"row_limit\": 10000, \"contribution\": false, \"color_scheme\": \"bnbColors\", \"show_legend\": true, \"show_bar_value\": false, \"bar_stacked\": false, \"order_bars\": false, \"y_axis_format\": \".3s\", \"y_axis_label\": \"\", \"show_controls\": false, \"x_axis_label\": \"\", \"bottom_margin\": \"auto\", \"x_ticks_layout\": \"auto\", \"reduce_x_ticks\": false, \"remote_id\": 13, \"datasource_name\": \"superset_2\", \"schema\": \"superset_2\", \"database_name\": \"ilp\"}",
+                            "datasource_name": "superset_2",
                             "datasource_id": 1,
                             "changed_on": {
                                 "__datetime__": "2018-10-23T15:36:31"
@@ -42,7 +42,7 @@
                     },
                     {
                         "__Slice__": {
-                            "perm": "[ilp].[superset_21](id:1)",
+                            "perm": "[ilp].[superset_2](id:1)",
                             "description": null,
                             "viz_type": "treemap",
                             "datasource_type": "table",
@@ -53,8 +53,8 @@
                             },
                             "created_by_fk": 1,
                             "cache_timeout": null,
-                            "params": "{\"datasource\": \"1__table\", \"viz_type\": \"treemap\", \"slice_id\": 14, \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"metrics\": [\"Total Performance Percentage\"], \"adhoc_filters\": [], \"groupby\": [\"district\"], \"row_limit\": 10000, \"color_scheme\": \"bnbColors\", \"treemap_ratio\": 1.618033988749895, \"number_format\": \".3s\", \"remote_id\": 14, \"datasource_name\": \"superset_21\", \"schema\": \"superset_21\", \"database_name\": \"ilp\"}",
-                            "datasource_name": "superset_21",
+                            "params": "{\"datasource\": \"1__table\", \"viz_type\": \"treemap\", \"slice_id\": 14, \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"metrics\": [\"Total Performance Percentage\"], \"adhoc_filters\": [], \"groupby\": [\"district\"], \"row_limit\": 10000, \"color_scheme\": \"bnbColors\", \"treemap_ratio\": 1.618033988749895, \"number_format\": \".3s\", \"remote_id\": 14, \"datasource_name\": \"superset_2\", \"schema\": \"superset_2\", \"database_name\": \"ilp\"}",
+                            "datasource_name": "superset_2",
                             "datasource_id": 1,
                             "changed_on": {
                                 "__datetime__": "2018-10-23T15:36:31"
@@ -64,7 +64,7 @@
                     },
                     {
                         "__Slice__": {
-                            "perm": "[ilp].[superset_21](id:1)",
+                            "perm": "[ilp].[superset_2](id:1)",
                             "description": null,
                             "viz_type": "table",
                             "datasource_type": "table",
@@ -75,8 +75,8 @@
                             },
                             "created_by_fk": 1,
                             "cache_timeout": null,
-                            "params": "{\"datasource\": \"1__table\", \"viz_type\": \"table\", \"slice_id\": 15, \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"groupby\": [\"district\", \"class\"], \"metrics\": [\"Total Performance Percentage\", \"Q1 Performance Percentage\", \"Q2 Performance Percentage\", \"Q3 Performance Percentage\"], \"percent_metrics\": [], \"timeseries_limit_metric\": null, \"row_limit\": 10000, \"include_time\": false, \"order_desc\": true, \"all_columns\": [], \"order_by_cols\": [], \"adhoc_filters\": [], \"table_timestamp_format\": \"%Y-%m-%d %H:%M:%S\", \"page_length\": 0, \"include_search\": false, \"table_filter\": false, \"align_pn\": false, \"color_pn\": true, \"remote_id\": 15, \"datasource_name\": \"superset_21\", \"schema\": \"superset_21\", \"database_name\": \"ilp\"}",
-                            "datasource_name": "superset_21",
+                            "params": "{\"datasource\": \"1__table\", \"viz_type\": \"table\", \"slice_id\": 15, \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"groupby\": [\"district\", \"class\"], \"metrics\": [\"Total Performance Percentage\", \"Q1 Performance Percentage\", \"Q2 Performance Percentage\", \"Q3 Performance Percentage\"], \"percent_metrics\": [], \"timeseries_limit_metric\": null, \"row_limit\": 10000, \"include_time\": false, \"order_desc\": true, \"all_columns\": [], \"order_by_cols\": [], \"adhoc_filters\": [], \"table_timestamp_format\": \"%Y-%m-%d %H:%M:%S\", \"page_length\": 0, \"include_search\": false, \"table_filter\": false, \"align_pn\": false, \"color_pn\": true, \"remote_id\": 15, \"datasource_name\": \"superset_2\", \"schema\": \"superset_2\", \"database_name\": \"ilp\"}",
+                            "datasource_name": "superset_2",
                             "datasource_id": 1,
                             "changed_on": {
                                 "__datetime__": "2018-10-23T15:36:31"
@@ -91,7 +91,7 @@
     "datasources": [
         {
             "__SqlaTable__": {
-                "table_name": "superset_21",
+                "table_name": "superset_2",
                 "description": null,
                 "template_params": null,
                 "main_dttm_col": null,
@@ -116,7 +116,7 @@
                 "params": "{\"remote_id\": 1, \"database_name\": \"ilp\"}",
                 "id": 1,
                 "is_sqllab_view": false,
-                "perm": "[ilp].[superset_21](id:1)",
+                "perm": "[ilp].[superset_2](id:1)",
                 "database": {
                     "__Database__": {
                         "id": 2,
@@ -128,7 +128,7 @@
                         "database_name": "ilp",
                         "created_by_fk": null,
                         "allow_csv_upload": false,
-                        "sqlalchemy_uri": "postgresql://nabeel:XXXXXXXXXX@localhost/ilpproduction",
+                        "sqlalchemy_uri": "postgresql://klp:\\u4<AKdnC~y268GF6v@dev.ilp.org.in/ilp",
                         "changed_by_fk": null,
                         "allow_ctas": false,
                         "password": null,
