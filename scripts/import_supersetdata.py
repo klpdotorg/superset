@@ -16,7 +16,7 @@ user = sys.argv[3]
 passwd = sys.argv[4]
 survey_id = sys.argv[5]
 
-connectionstring = "dbname=%s user=%s password=%s" % (database,user,passwd)
+connectionstring = "host=%s dbname=%s user=%s password=%s" % (host,database,user,passwd)
 conn = psycopg2.connect(connectionstring)
 cursor = conn.cursor()
 
@@ -47,6 +47,7 @@ sqlselect = "select distinct state,district,block,cluster,institution_name,insti
 data = {}
 cursor.execute(sqlselect,)
 
+print("Got data")
 
 for row in cursor.fetchall():
     state = row[0]
@@ -115,5 +116,7 @@ for qgid in data:
                     sqlinsert = sqlinsert+",'"+question_info["qname"]+"',"+str(question_info["qid"])+","+str(question_info["yescount"])+","+str(question_info["numcount"])
                 sqlinsert = sqlinsert+","+str(yearmonth_info[gender]["total_correctcount"])+","+str(yearmonth_info[gender]["total_numcount"])+","+str(yearmonth_info[gender]["numstudents"])+");"
                 cursor.execute(sqlinsert)
+
+print("Finished inserts")
     
 conn.commit()
