@@ -9,7 +9,7 @@ ILP Superset dashboards
 `fabmanager create-admin --app superset`
 4. Initialize the database `superset db upgrade`
 5. Create default roles and permissions `superset init`
-6. Run `python import_supersetdata.py db_name user "password" 2`
+6. Run `python import_supersetdata.py hostname db_name user "password" 2` (This script should be run as a cron job so as to get data updated daily)
 6. Run `superset import_datasources -p superset_2.yaml` to restore the db, table, table_columns and table metrices.
 7. To start a development web server on port 8088, use -p to bind to another port, `superset runserver -d`
 8. Login to Superset UI -> Manage -> Import Dashboards -> Choose the three dashboards for the repo.
