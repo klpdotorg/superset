@@ -8,11 +8,11 @@
                 "description": null,
                 "dashboard_title": "District Level Performance",
                 "changed_on": {
-                    "__datetime__": "2018-11-12T12:25:00"
+                    "__datetime__": "2018-11-13T13:18:10"
                 },
                 "created_by_fk": 1,
                 "json_metadata": "{\"filter_immune_slices\": [], \"timed_refresh_immune_slices\": [], \"filter_immune_slice_fields\": {}, \"expanded_slices\": {}, \"default_filters\": \"{}\", \"remote_id\": 3, \"import_time\": 1542005699}",
-                "position_json": "{\"CHART-OdiXpxnt0r\": {\"children\": [], \"id\": \"CHART-OdiXpxnt0r\", \"meta\": {\"chartId\": 16, \"height\": 49, \"sliceName\": \"Performance By District\", \"width\": 6}, \"type\": \"CHART\"}, \"CHART-VEErhdOzJb\": {\"children\": [], \"id\": \"CHART-VEErhdOzJb\", \"meta\": {\"chartId\": 17, \"height\": 40, \"sliceName\": \"Performance per Question by District & Class\", \"width\": 12}, \"type\": \"CHART\"}, \"CHART-yCyLAm-2gY\": {\"children\": [], \"id\": \"CHART-yCyLAm-2gY\", \"meta\": {\"chartId\": 15, \"height\": 50, \"sliceName\": \"Performance By District & Class \", \"width\": 6}, \"type\": \"CHART\"}, \"DASHBOARD_VERSION_KEY\": \"v2\", \"GRID_ID\": {\"children\": [\"ROW-6V2-Ml1t3\", \"ROW-M9b0Xn5FUg\"], \"id\": \"GRID_ID\", \"type\": \"GRID\"}, \"HEADER_ID\": {\"id\": \"HEADER_ID\", \"meta\": {\"text\": \"District Level Performance\"}, \"type\": \"HEADER\"}, \"ROOT_ID\": {\"children\": [\"GRID_ID\"], \"id\": \"ROOT_ID\", \"type\": \"ROOT\"}, \"ROW-6V2-Ml1t3\": {\"children\": [\"CHART-OdiXpxnt0r\", \"CHART-yCyLAm-2gY\"], \"id\": \"ROW-6V2-Ml1t3\", \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}, \"type\": \"ROW\"}, \"ROW-M9b0Xn5FUg\": {\"children\": [\"CHART-VEErhdOzJb\"], \"id\": \"ROW-M9b0Xn5FUg\", \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}, \"type\": \"ROW\"}}",
+                "position_json": "{\"CHART-OdiXpxnt0r\":{\"children\":[],\"id\":\"CHART-OdiXpxnt0r\",\"meta\":{\"chartId\":16,\"height\":49,\"sliceName\":\"Performance By District\",\"width\":6},\"type\":\"CHART\"},\"CHART-VEErhdOzJb\":{\"children\":[],\"id\":\"CHART-VEErhdOzJb\",\"meta\":{\"chartId\":17,\"height\":40,\"sliceName\":\"Performance per Question by District & Class\",\"width\":12},\"type\":\"CHART\"},\"CHART-VcYZASzaL_\":{\"children\":[],\"id\":\"CHART-VcYZASzaL_\",\"meta\":{\"chartId\":6,\"height\":14,\"sliceName\":\"Academic Year\",\"width\":5},\"type\":\"CHART\"},\"CHART-nf2_r9moER\":{\"children\":[],\"id\":\"CHART-nf2_r9moER\",\"meta\":{\"chartId\":18,\"height\":47,\"sliceName\":\"District Perf by Gender - Bubble Chart\",\"width\":12},\"type\":\"CHART\"},\"CHART-yCyLAm-2gY\":{\"children\":[],\"id\":\"CHART-yCyLAm-2gY\",\"meta\":{\"chartId\":15,\"height\":50,\"sliceName\":\"Performance By District & Class \",\"width\":6},\"type\":\"CHART\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"GRID_ID\":{\"children\":[\"ROW-Omrh_kGtoo\",\"ROW-6V2-Ml1t3\",\"ROW-5M_QYMBGRJ\",\"ROW-M9b0Xn5FUg\"],\"id\":\"GRID_ID\",\"type\":\"GRID\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"District Level Performance\"},\"type\":\"HEADER\"},\"ROOT_ID\":{\"children\":[\"GRID_ID\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW-5M_QYMBGRJ\":{\"children\":[\"CHART-nf2_r9moER\"],\"id\":\"ROW-5M_QYMBGRJ\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"type\":\"ROW\"},\"ROW-6V2-Ml1t3\":{\"children\":[\"CHART-OdiXpxnt0r\",\"CHART-yCyLAm-2gY\"],\"id\":\"ROW-6V2-Ml1t3\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"type\":\"ROW\"},\"ROW-M9b0Xn5FUg\":{\"children\":[\"CHART-VEErhdOzJb\"],\"id\":\"ROW-M9b0Xn5FUg\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"type\":\"ROW\"},\"ROW-Omrh_kGtoo\":{\"children\":[\"CHART-VcYZASzaL_\"],\"id\":\"ROW-Omrh_kGtoo\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"type\":\"ROW\"}}",
                 "id": 3,
                 "created_on": {
                     "__datetime__": "2018-11-12T12:25:00"
@@ -27,7 +27,7 @@
                             "datasource_id": 1,
                             "slice_name": "Performance By District & Class ",
                             "changed_on": {
-                                "__datetime__": "2018-11-12T12:36:02"
+                                "__datetime__": "2018-11-13T13:28:11"
                             },
                             "changed_by_fk": 1,
                             "perm": "[ilp].[superset_2](id:1)",
@@ -49,7 +49,7 @@
                             "datasource_id": 1,
                             "slice_name": "Performance By District",
                             "changed_on": {
-                                "__datetime__": "2018-11-12T12:36:02"
+                                "__datetime__": "2018-11-13T13:28:11"
                             },
                             "changed_by_fk": 1,
                             "perm": "[ilp].[superset_2](id:1)",
@@ -71,7 +71,7 @@
                             "datasource_id": 1,
                             "slice_name": "Performance per Question by District & Class",
                             "changed_on": {
-                                "__datetime__": "2018-11-12T12:36:02"
+                                "__datetime__": "2018-11-13T13:28:11"
                             },
                             "changed_by_fk": 1,
                             "perm": "[ilp].[superset_2](id:1)",
@@ -81,6 +81,50 @@
                             "id": 17,
                             "created_on": {
                                 "__datetime__": "2018-11-12T12:25:00"
+                            }
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "created_by_fk": 1,
+                            "cache_timeout": null,
+                            "params": "{\"datasource\": \"1__table\", \"viz_type\": \"bubble\", \"slice_id\": 18, \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last week\", \"series\": \"district\", \"entity\": \"gender\", \"x\": {\"expressionType\": \"SIMPLE\", \"column\": {\"id\": 7, \"column_name\": \"district\", \"verbose_name\": \"District\", \"description\": null, \"expression\": \"\", \"filterable\": true, \"groupby\": true, \"is_dttm\": false, \"type\": \"VARCHAR(50)\", \"database_expression\": null, \"python_date_format\": null}, \"aggregate\": \"COUNT\", \"sqlExpression\": null, \"hasCustomLabel\": false, \"fromFormData\": true, \"label\": \"COUNT(district)\", \"optionName\": \"metric_mw8jjq0sjae_mpssc2s3lpq\"}, \"y\": \"Total Performance Percentage\", \"adhoc_filters\": [], \"size\": {\"expressionType\": \"SQL\", \"sqlExpression\": \"AVG(total_numcount)\", \"column\": null, \"aggregate\": null, \"hasCustomLabel\": false, \"fromFormData\": true, \"label\": \"AVG(total_numcount)\", \"optionName\": \"metric_yvrvok2j7y7_act9g9o836r\"}, \"max_bubble_size\": \"25\", \"limit\": 50, \"color_scheme\": \"bnbColors\", \"show_legend\": true, \"x_axis_label\": \"Child Count\", \"left_margin\": \"auto\", \"x_axis_format\": \".3s\", \"x_ticks_layout\": \"auto\", \"x_log_scale\": false, \"x_axis_showminmax\": false, \"y_axis_label\": \"Total Performance Percentage\", \"bottom_margin\": \"auto\", \"y_axis_format\": \".3s\", \"y_log_scale\": false, \"y_axis_showminmax\": false, \"remote_id\": 18, \"datasource_name\": \"superset_2\", \"schema\": \"superset_2\", \"database_name\": \"ilp\"}",
+                            "datasource_name": "superset_2",
+                            "datasource_id": 1,
+                            "slice_name": "District Perf by Gender - Bubble Chart",
+                            "changed_on": {
+                                "__datetime__": "2018-11-13T13:28:11"
+                            },
+                            "changed_by_fk": 1,
+                            "perm": "[ilp].[superset_2](id:1)",
+                            "description": null,
+                            "viz_type": "bubble",
+                            "datasource_type": "table",
+                            "id": 18,
+                            "created_on": {
+                                "__datetime__": "2018-11-13T12:25:22"
+                            }
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "created_by_fk": 1,
+                            "cache_timeout": null,
+                            "params": "{\"datasource\": \"1__table\", \"viz_type\": \"filter_box\", \"slice_id\": 6, \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"groupby\": [\"academic_year\"], \"metric\": {\"expressionType\": \"SIMPLE\", \"column\": {\"id\": 1, \"column_name\": \"numstudents\", \"verbose_name\": null, \"description\": null, \"expression\": \"\", \"filterable\": false, \"groupby\": false, \"is_dttm\": false, \"type\": \"INTEGER\", \"database_expression\": null, \"python_date_format\": null, \"optionName\": \"_col_numstudents\"}, \"aggregate\": \"AVG\", \"sqlExpression\": null, \"hasCustomLabel\": false, \"fromFormData\": true, \"label\": \"AVG(numstudents)\", \"optionName\": \"metric_95jjhop3p9h_7sbu1li0oew\"}, \"adhoc_filters\": [], \"date_filter\": false, \"instant_filtering\": true, \"show_sqla_time_granularity\": false, \"show_sqla_time_column\": false, \"show_druid_time_granularity\": false, \"show_druid_time_origin\": false, \"remote_id\": 6, \"datasource_name\": \"superset_2\", \"schema\": \"superset_2\", \"database_name\": \"ilp\"}",
+                            "datasource_name": "superset_2",
+                            "datasource_id": 1,
+                            "slice_name": "Academic Year",
+                            "changed_on": {
+                                "__datetime__": "2018-11-13T13:28:11"
+                            },
+                            "changed_by_fk": 1,
+                            "perm": "[ilp].[superset_2](id:1)",
+                            "description": "",
+                            "viz_type": "filter_box",
+                            "datasource_type": "table",
+                            "id": 6,
+                            "created_on": {
+                                "__datetime__": "2018-11-02T17:51:34"
                             }
                         }
                     }

@@ -27,7 +27,7 @@
                             "datasource_id": 1,
                             "slice_name": "District & Block Performance - Layout Chart",
                             "changed_on": {
-                                "__datetime__": "2018-11-12T12:41:25"
+                                "__datetime__": "2018-11-13T13:48:10"
                             },
                             "changed_by_fk": 1,
                             "perm": "[ilp].[superset_2](id:1)",
@@ -49,7 +49,7 @@
                             "datasource_id": 1,
                             "slice_name": "Performance By Block & Village",
                             "changed_on": {
-                                "__datetime__": "2018-11-12T12:41:25"
+                                "__datetime__": "2018-11-13T13:48:10"
                             },
                             "changed_by_fk": 1,
                             "perm": "[ilp].[superset_2](id:1)",
@@ -71,7 +71,7 @@
                             "datasource_id": 1,
                             "slice_name": "District Filter",
                             "changed_on": {
-                                "__datetime__": "2018-11-12T12:41:25"
+                                "__datetime__": "2018-11-13T13:48:10"
                             },
                             "changed_by_fk": 1,
                             "perm": "[ilp].[superset_2](id:1)",
@@ -93,7 +93,7 @@
                             "datasource_id": 1,
                             "slice_name": "Block Filter",
                             "changed_on": {
-                                "__datetime__": "2018-11-12T12:41:25"
+                                "__datetime__": "2018-11-13T13:48:10"
                             },
                             "changed_by_fk": 1,
                             "perm": "[ilp].[superset_2](id:1)",
@@ -115,7 +115,7 @@
                             "datasource_id": 1,
                             "slice_name": "Village Filter",
                             "changed_on": {
-                                "__datetime__": "2018-11-12T12:41:25"
+                                "__datetime__": "2018-11-13T13:48:10"
                             },
                             "changed_by_fk": 1,
                             "perm": "[ilp].[superset_2](id:1)",
@@ -132,12 +132,12 @@
                         "__Slice__": {
                             "created_by_fk": 1,
                             "cache_timeout": null,
-                            "params": "{\"datasource\": \"1__table\", \"viz_type\": \"filter_box\", \"slice_id\": 6, \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"groupby\": [\"academic_year\"], \"metric\": \"count\", \"adhoc_filters\": [], \"date_filter\": false, \"instant_filtering\": true, \"show_sqla_time_granularity\": false, \"show_sqla_time_column\": false, \"show_druid_time_granularity\": false, \"show_druid_time_origin\": false, \"remote_id\": 6, \"datasource_name\": \"superset_2\", \"schema\": \"superset_2\", \"database_name\": \"ilp\"}",
+                            "params": "{\"datasource\": \"1__table\", \"viz_type\": \"filter_box\", \"slice_id\": 6, \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"groupby\": [\"academic_year\"], \"metric\": {\"expressionType\": \"SIMPLE\", \"column\": {\"id\": 1, \"column_name\": \"numstudents\", \"verbose_name\": null, \"description\": null, \"expression\": \"\", \"filterable\": false, \"groupby\": false, \"is_dttm\": false, \"type\": \"INTEGER\", \"database_expression\": null, \"python_date_format\": null, \"optionName\": \"_col_numstudents\"}, \"aggregate\": \"AVG\", \"sqlExpression\": null, \"hasCustomLabel\": false, \"fromFormData\": true, \"label\": \"AVG(numstudents)\", \"optionName\": \"metric_95jjhop3p9h_7sbu1li0oew\"}, \"adhoc_filters\": [], \"date_filter\": false, \"instant_filtering\": true, \"show_sqla_time_granularity\": false, \"show_sqla_time_column\": false, \"show_druid_time_granularity\": false, \"show_druid_time_origin\": false, \"remote_id\": 6, \"datasource_name\": \"superset_2\", \"schema\": \"superset_2\", \"database_name\": \"ilp\"}",
                             "datasource_name": "superset_2",
                             "datasource_id": 1,
                             "slice_name": "Academic Year",
                             "changed_on": {
-                                "__datetime__": "2018-11-12T12:41:25"
+                                "__datetime__": "2018-11-13T13:48:10"
                             },
                             "changed_by_fk": 1,
                             "perm": "[ilp].[superset_2](id:1)",
