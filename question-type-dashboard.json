@@ -6,16 +6,16 @@
                 "slug": null,
                 "css": "",
                 "description": null,
-                "dashboard_title": "Questions Type Analysis - Class 4 - District",
+                "dashboard_title": "Questions Type Analysis - District",
                 "changed_on": {
-                    "__datetime__": "2018-11-12T12:24:05"
+                    "__datetime__": "2018-11-21T11:11:34"
                 },
                 "created_by_fk": 1,
-                "json_metadata": "{\"filter_immune_slices\": [], \"timed_refresh_immune_slices\": [], \"filter_immune_slice_fields\": {}, \"expanded_slices\": {}, \"default_filters\": \"{}\", \"remote_id\": 2, \"import_time\": 1542005604}",
-                "position_json": "{\"CHART-FBgNa8zFAE\":{\"children\":[],\"id\":\"CHART-FBgNa8zFAE\",\"meta\":{\"chartId\":7,\"height\":50,\"sliceName\":\"Shapes - Class 4 - District Level\",\"width\":4},\"type\":\"CHART\"},\"CHART-HEibKuJa1p\":{\"children\":[],\"id\":\"CHART-HEibKuJa1p\",\"meta\":{\"chartId\":9,\"height\":50,\"sliceName\":\"Addition - Class 4 - District Level\",\"width\":4},\"type\":\"CHART\"},\"CHART-MMIxUdcIZ6\":{\"children\":[],\"id\":\"CHART-MMIxUdcIZ6\",\"meta\":{\"chartId\":5,\"height\":16,\"sliceName\":\"Village Filter\",\"width\":3},\"type\":\"CHART\"},\"CHART-QWu6exs_lq\":{\"children\":[],\"id\":\"CHART-QWu6exs_lq\",\"meta\":{\"chartId\":10,\"height\":50,\"sliceName\":\"Pattern - Class 4 - District Level\",\"width\":4},\"type\":\"CHART\"},\"CHART-UvHBeD6BJj\":{\"children\":[],\"id\":\"CHART-UvHBeD6BJj\",\"meta\":{\"chartId\":12,\"height\":50,\"sliceName\":\"Multiplication - Class 4 - District Level\",\"width\":4},\"type\":\"CHART\"},\"CHART-gzx4t_WyXX\":{\"children\":[],\"id\":\"CHART-gzx4t_WyXX\",\"meta\":{\"chartId\":3,\"height\":17,\"sliceName\":\"District Filter\",\"width\":3},\"type\":\"CHART\"},\"CHART-qddp3H6hVW\":{\"children\":[],\"id\":\"CHART-qddp3H6hVW\",\"meta\":{\"chartId\":13,\"height\":50,\"sliceName\":\"Division - Class 4 - District Level\",\"width\":4},\"type\":\"CHART\"},\"CHART-tUuhJWrtxY\":{\"children\":[],\"id\":\"CHART-tUuhJWrtxY\",\"meta\":{\"chartId\":8,\"height\":50,\"sliceName\":\"Subtraction - Class 4 - District Level\",\"width\":4},\"type\":\"CHART\"},\"CHART-uhYNbIH9Pc\":{\"children\":[],\"id\":\"CHART-uhYNbIH9Pc\",\"meta\":{\"chartId\":6,\"height\":16,\"sliceName\":\"Academic Year\",\"width\":3},\"type\":\"CHART\"},\"CHART-wJ2WiwSvr1\":{\"children\":[],\"id\":\"CHART-wJ2WiwSvr1\",\"meta\":{\"chartId\":4,\"height\":16,\"sliceName\":\"Block Filter\",\"width\":3},\"type\":\"CHART\"},\"CHART-xlB0qu_XPd\":{\"children\":[],\"id\":\"CHART-xlB0qu_XPd\",\"meta\":{\"chartId\":11,\"height\":50,\"sliceName\":\"Number Concept - Class 4 - District Level\",\"width\":4},\"type\":\"CHART\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"GRID_ID\":{\"children\":[\"ROW-D5WqHKTu5\",\"ROW-WTT2JdpR23\",\"ROW-VfSUnF6kxE\",\"ROW-SFDA4leVNj\"],\"id\":\"GRID_ID\",\"type\":\"GRID\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"Questions Type Analysis - Class 4 - District\"},\"type\":\"HEADER\"},\"ROOT_ID\":{\"children\":[\"GRID_ID\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW-D5WqHKTu5\":{\"children\":[\"CHART-gzx4t_WyXX\",\"CHART-wJ2WiwSvr1\",\"CHART-MMIxUdcIZ6\",\"CHART-uhYNbIH9Pc\"],\"id\":\"ROW-D5WqHKTu5\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"type\":\"ROW\"},\"ROW-SFDA4leVNj\":{\"children\":[\"CHART-qddp3H6hVW\"],\"id\":\"ROW-SFDA4leVNj\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"type\":\"ROW\"},\"ROW-VfSUnF6kxE\":{\"children\":[\"CHART-QWu6exs_lq\",\"CHART-xlB0qu_XPd\",\"CHART-UvHBeD6BJj\"],\"id\":\"ROW-VfSUnF6kxE\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"type\":\"ROW\"},\"ROW-WTT2JdpR23\":{\"children\":[\"CHART-FBgNa8zFAE\",\"CHART-tUuhJWrtxY\",\"CHART-HEibKuJa1p\"],\"id\":\"ROW-WTT2JdpR23\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"type\":\"ROW\"}}",
-                "id": 2,
+                "json_metadata": "{\"filter_immune_slices\": [], \"timed_refresh_immune_slices\": [], \"filter_immune_slice_fields\": {}, \"expanded_slices\": {}, \"default_filters\": \"{}\", \"remote_id\": 4}",
+                "position_json": "{\"CHART-1vQCmspAAr\":{\"children\":[],\"id\":\"CHART-1vQCmspAAr\",\"meta\":{\"chartId\":24,\"height\":50,\"sliceName\":\"Multiplication - District Level\",\"width\":4},\"type\":\"CHART\"},\"CHART-K0JH3kWAcn\":{\"children\":[],\"id\":\"CHART-K0JH3kWAcn\",\"meta\":{\"chartId\":21,\"height\":50,\"sliceName\":\"Shapes - District Level\",\"width\":4},\"type\":\"CHART\"},\"CHART-Ob5ZKIjVFv\":{\"children\":[],\"id\":\"CHART-Ob5ZKIjVFv\",\"meta\":{\"chartId\":20,\"height\":47,\"sliceName\":\"Number Concept - District Level\",\"width\":6},\"type\":\"CHART\"},\"CHART-SbtEVFeHTJ\":{\"children\":[],\"id\":\"CHART-SbtEVFeHTJ\",\"meta\":{\"chartId\":19,\"height\":13,\"sliceName\":\"Class Filter\",\"width\":3},\"type\":\"CHART\"},\"CHART-Wpc0zg9w7g\":{\"children\":[],\"id\":\"CHART-Wpc0zg9w7g\",\"meta\":{\"chartId\":23,\"height\":50,\"sliceName\":\"Division - District Level\",\"width\":4},\"type\":\"CHART\"},\"CHART-X___kujI7l\":{\"children\":[],\"id\":\"CHART-X___kujI7l\",\"meta\":{\"chartId\":5,\"height\":13,\"sliceName\":\"Village Filter\",\"width\":2},\"type\":\"CHART\"},\"CHART-YEpi7KxqlV\":{\"children\":[],\"id\":\"CHART-YEpi7KxqlV\",\"meta\":{\"chartId\":25,\"height\":50,\"sliceName\":\"Pattern - District Level\",\"width\":3},\"type\":\"CHART\"},\"CHART-a5gevHQnwu\":{\"children\":[],\"id\":\"CHART-a5gevHQnwu\",\"meta\":{\"chartId\":26,\"height\":49,\"sliceName\":\"Addition - District Level\",\"width\":5},\"type\":\"CHART\"},\"CHART-aIboYZVNLn\":{\"children\":[],\"id\":\"CHART-aIboYZVNLn\",\"meta\":{\"chartId\":22,\"height\":50,\"sliceName\":\"Subtraction - District Level\",\"width\":4},\"type\":\"CHART\"},\"CHART-d90YvxnhKv\":{\"children\":[],\"id\":\"CHART-d90YvxnhKv\",\"meta\":{\"chartId\":3,\"height\":13,\"sliceName\":\"District Filter\",\"width\":3},\"type\":\"CHART\"},\"CHART-rpJwhLMdCr\":{\"children\":[],\"id\":\"CHART-rpJwhLMdCr\",\"meta\":{\"chartId\":4,\"height\":13,\"sliceName\":\"Block Filter\",\"width\":2},\"type\":\"CHART\"},\"CHART-utjU2yEX_6\":{\"children\":[],\"id\":\"CHART-utjU2yEX_6\",\"meta\":{\"chartId\":6,\"height\":13,\"sliceName\":\"Academic Year\",\"width\":2},\"type\":\"CHART\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"GRID_ID\":{\"children\":[\"ROW-5sr_IDEd1z\",\"ROW-1eJOA-sm8V\",\"ROW-7Vcfbro4Xy\",\"ROW-N6Tvm7nPHp\"],\"id\":\"GRID_ID\",\"type\":\"GRID\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"Questions Type Analysis - District\"},\"type\":\"HEADER\"},\"ROOT_ID\":{\"children\":[\"GRID_ID\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW-1eJOA-sm8V\":{\"children\":[\"CHART-a5gevHQnwu\",\"CHART-YEpi7KxqlV\",\"CHART-1vQCmspAAr\"],\"id\":\"ROW-1eJOA-sm8V\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"type\":\"ROW\"},\"ROW-5sr_IDEd1z\":{\"children\":[\"CHART-d90YvxnhKv\",\"CHART-rpJwhLMdCr\",\"CHART-X___kujI7l\",\"CHART-utjU2yEX_6\",\"CHART-SbtEVFeHTJ\"],\"id\":\"ROW-5sr_IDEd1z\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"type\":\"ROW\"},\"ROW-7Vcfbro4Xy\":{\"children\":[\"CHART-Wpc0zg9w7g\",\"CHART-aIboYZVNLn\",\"CHART-K0JH3kWAcn\"],\"id\":\"ROW-7Vcfbro4Xy\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"type\":\"ROW\"},\"ROW-N6Tvm7nPHp\":{\"children\":[\"CHART-Ob5ZKIjVFv\"],\"id\":\"ROW-N6Tvm7nPHp\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"type\":\"ROW\"}}",
+                "id": 4,
                 "created_on": {
-                    "__datetime__": "2018-11-12T12:23:24"
+                    "__datetime__": "2018-11-21T11:02:01"
                 },
                 "slices": [
                     {
@@ -27,7 +27,7 @@
                             "datasource_id": 1,
                             "slice_name": "District Filter",
                             "changed_on": {
-                                "__datetime__": "2018-11-13T13:46:27"
+                                "__datetime__": "2018-11-25T11:45:53"
                             },
                             "changed_by_fk": 1,
                             "perm": "[ilp].[superset_2](id:1)",
@@ -49,7 +49,7 @@
                             "datasource_id": 1,
                             "slice_name": "Block Filter",
                             "changed_on": {
-                                "__datetime__": "2018-11-13T13:46:27"
+                                "__datetime__": "2018-11-25T11:45:53"
                             },
                             "changed_by_fk": 1,
                             "perm": "[ilp].[superset_2](id:1)",
@@ -71,7 +71,7 @@
                             "datasource_id": 1,
                             "slice_name": "Village Filter",
                             "changed_on": {
-                                "__datetime__": "2018-11-13T13:46:27"
+                                "__datetime__": "2018-11-25T11:45:53"
                             },
                             "changed_by_fk": 1,
                             "perm": "[ilp].[superset_2](id:1)",
@@ -88,166 +88,12 @@
                         "__Slice__": {
                             "created_by_fk": 1,
                             "cache_timeout": null,
-                            "params": "{\"datasource\": \"1__table\", \"viz_type\": \"table\", \"slice_id\": 4, \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"groupby\": [\"district\"], \"metrics\": [\"Q18 Performance Percentage\", \"Q19 Performance Percentage\", \"Q20 Performance Percentage\"], \"percent_metrics\": [], \"timeseries_limit_metric\": null, \"row_limit\": 10000, \"include_time\": false, \"order_desc\": true, \"all_columns\": [], \"order_by_cols\": [], \"adhoc_filters\": [{\"expressionType\": \"SIMPLE\", \"subject\": \"class\", \"operator\": \"==\", \"comparator\": \"\\\"Class 4 Assessment\\\"\", \"clause\": \"WHERE\", \"sqlExpression\": null, \"fromFormData\": true, \"filterOptionName\": \"filter_u130pcgvrxq_j3i39jt4vdm\"}], \"table_timestamp_format\": \"%Y-%m-%d %H:%M:%S\", \"page_length\": 0, \"include_search\": false, \"table_filter\": false, \"align_pn\": false, \"color_pn\": true, \"remote_id\": 7, \"datasource_name\": \"superset_2\", \"schema\": \"superset_2\", \"database_name\": \"ilp\", \"import_time\": 1542005604}",
-                            "datasource_name": "superset_2",
-                            "datasource_id": 1,
-                            "slice_name": "Shapes - Class 4 - District Level",
-                            "changed_on": {
-                                "__datetime__": "2018-11-13T13:46:27"
-                            },
-                            "changed_by_fk": 1,
-                            "perm": "[ilp].[superset_2](id:1)",
-                            "description": null,
-                            "viz_type": "table",
-                            "datasource_type": "table",
-                            "id": 7,
-                            "created_on": {
-                                "__datetime__": "2018-11-12T12:23:24"
-                            }
-                        }
-                    },
-                    {
-                        "__Slice__": {
-                            "created_by_fk": 1,
-                            "cache_timeout": null,
-                            "params": "{\"datasource\": \"1__table\", \"viz_type\": \"table\", \"slice_id\": 5, \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"groupby\": [\"district\"], \"metrics\": [\"Q8 Performance Percentage\", \"Q9 Performance Percentage\", \"Q15 Performance Percentage\"], \"percent_metrics\": [], \"timeseries_limit_metric\": null, \"row_limit\": 10000, \"include_time\": false, \"order_desc\": true, \"all_columns\": [], \"order_by_cols\": [], \"adhoc_filters\": [{\"expressionType\": \"SIMPLE\", \"subject\": \"class\", \"operator\": \"==\", \"comparator\": \"\\\"Class 4 Assessment\\\"\", \"clause\": \"WHERE\", \"sqlExpression\": null, \"fromFormData\": true, \"filterOptionName\": \"filter_runsvq94ih_tq53s7p5lh\"}], \"table_timestamp_format\": \"%Y-%m-%d %H:%M:%S\", \"page_length\": 0, \"include_search\": false, \"table_filter\": false, \"align_pn\": false, \"color_pn\": true, \"remote_id\": 8, \"datasource_name\": \"superset_2\", \"schema\": \"superset_2\", \"database_name\": \"ilp\", \"import_time\": 1542005604}",
-                            "datasource_name": "superset_2",
-                            "datasource_id": 1,
-                            "slice_name": "Subtraction - Class 4 - District Level",
-                            "changed_on": {
-                                "__datetime__": "2018-11-13T13:46:27"
-                            },
-                            "changed_by_fk": 1,
-                            "perm": "[ilp].[superset_2](id:1)",
-                            "description": null,
-                            "viz_type": "table",
-                            "datasource_type": "table",
-                            "id": 8,
-                            "created_on": {
-                                "__datetime__": "2018-11-12T12:23:24"
-                            }
-                        }
-                    },
-                    {
-                        "__Slice__": {
-                            "created_by_fk": 1,
-                            "cache_timeout": null,
-                            "params": "{\"datasource\": \"1__table\", \"viz_type\": \"table\", \"slice_id\": 6, \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"groupby\": [\"district\"], \"metrics\": [\"Q6 Performance Percentage\", \"Q7 Performance Percentage\", \"Q14 Performance Percentage\"], \"percent_metrics\": [], \"timeseries_limit_metric\": null, \"row_limit\": 10000, \"include_time\": false, \"order_desc\": true, \"all_columns\": [], \"order_by_cols\": [], \"adhoc_filters\": [{\"expressionType\": \"SIMPLE\", \"subject\": \"class\", \"operator\": \"==\", \"comparator\": \"\\\"Class 4 Assessment\\\"\", \"clause\": \"WHERE\", \"sqlExpression\": null, \"fromFormData\": true, \"filterOptionName\": \"filter_u130pcgvrxq_j3i39jt4vdm\"}], \"table_timestamp_format\": \"%Y-%m-%d %H:%M:%S\", \"page_length\": 0, \"include_search\": false, \"table_filter\": false, \"align_pn\": false, \"color_pn\": true, \"remote_id\": 9, \"datasource_name\": \"superset_2\", \"schema\": \"superset_2\", \"database_name\": \"ilp\", \"import_time\": 1542005604}",
-                            "datasource_name": "superset_2",
-                            "datasource_id": 1,
-                            "slice_name": "Addition - Class 4 - District Level",
-                            "changed_on": {
-                                "__datetime__": "2018-11-13T13:46:27"
-                            },
-                            "changed_by_fk": 1,
-                            "perm": "[ilp].[superset_2](id:1)",
-                            "description": null,
-                            "viz_type": "table",
-                            "datasource_type": "table",
-                            "id": 9,
-                            "created_on": {
-                                "__datetime__": "2018-11-12T12:23:24"
-                            }
-                        }
-                    },
-                    {
-                        "__Slice__": {
-                            "created_by_fk": 1,
-                            "cache_timeout": null,
-                            "params": "{\"datasource\": \"1__table\", \"viz_type\": \"table\", \"slice_id\": 7, \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"groupby\": [\"district\"], \"metrics\": [\"Q17 Performance Percentage\"], \"percent_metrics\": [], \"timeseries_limit_metric\": null, \"row_limit\": 10000, \"include_time\": false, \"order_desc\": true, \"all_columns\": [], \"order_by_cols\": [], \"adhoc_filters\": [{\"expressionType\": \"SIMPLE\", \"subject\": \"class\", \"operator\": \"==\", \"comparator\": \"\\\"Class 4 Assessment\\\"\", \"clause\": \"WHERE\", \"sqlExpression\": null, \"fromFormData\": true, \"filterOptionName\": \"filter_u130pcgvrxq_j3i39jt4vdm\"}], \"table_timestamp_format\": \"%Y-%m-%d %H:%M:%S\", \"page_length\": 0, \"include_search\": false, \"table_filter\": false, \"align_pn\": false, \"color_pn\": true, \"remote_id\": 10, \"datasource_name\": \"superset_2\", \"schema\": \"superset_2\", \"database_name\": \"ilp\", \"import_time\": 1542005604}",
-                            "datasource_name": "superset_2",
-                            "datasource_id": 1,
-                            "slice_name": "Pattern - Class 4 - District Level",
-                            "changed_on": {
-                                "__datetime__": "2018-11-13T13:46:27"
-                            },
-                            "changed_by_fk": 1,
-                            "perm": "[ilp].[superset_2](id:1)",
-                            "description": null,
-                            "viz_type": "table",
-                            "datasource_type": "table",
-                            "id": 10,
-                            "created_on": {
-                                "__datetime__": "2018-11-12T12:23:24"
-                            }
-                        }
-                    },
-                    {
-                        "__Slice__": {
-                            "created_by_fk": 1,
-                            "cache_timeout": null,
-                            "params": "{\"datasource\": \"1__table\", \"viz_type\": \"table\", \"slice_id\": 8, \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"groupby\": [\"district\"], \"metrics\": [\"Q1 Performance Percentage\", \"Q2 Performance Percentage\", \"Q3 Performance Percentage\"], \"percent_metrics\": [], \"timeseries_limit_metric\": null, \"row_limit\": 10000, \"include_time\": false, \"order_desc\": true, \"all_columns\": [], \"order_by_cols\": [], \"adhoc_filters\": [{\"expressionType\": \"SIMPLE\", \"subject\": \"class\", \"operator\": \"==\", \"comparator\": \"\\\"Class 4 Assessment\\\"\", \"clause\": \"WHERE\", \"sqlExpression\": null, \"fromFormData\": true, \"filterOptionName\": \"filter_u130pcgvrxq_j3i39jt4vdm\"}], \"table_timestamp_format\": \"%Y-%m-%d %H:%M:%S\", \"page_length\": 0, \"include_search\": false, \"table_filter\": false, \"align_pn\": false, \"color_pn\": true, \"remote_id\": 11, \"datasource_name\": \"superset_2\", \"schema\": \"superset_2\", \"database_name\": \"ilp\", \"import_time\": 1542005604}",
-                            "datasource_name": "superset_2",
-                            "datasource_id": 1,
-                            "slice_name": "Number Concept - Class 4 - District Level",
-                            "changed_on": {
-                                "__datetime__": "2018-11-13T13:46:27"
-                            },
-                            "changed_by_fk": 1,
-                            "perm": "[ilp].[superset_2](id:1)",
-                            "description": null,
-                            "viz_type": "table",
-                            "datasource_type": "table",
-                            "id": 11,
-                            "created_on": {
-                                "__datetime__": "2018-11-12T12:23:24"
-                            }
-                        }
-                    },
-                    {
-                        "__Slice__": {
-                            "created_by_fk": 1,
-                            "cache_timeout": null,
-                            "params": "{\"datasource\": \"1__table\", \"viz_type\": \"table\", \"slice_id\": 9, \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"groupby\": [\"district\"], \"metrics\": [\"Q10 Performance Percentage\", \"Q11 Performance Percentage\"], \"percent_metrics\": [], \"timeseries_limit_metric\": null, \"row_limit\": 10000, \"include_time\": false, \"order_desc\": true, \"all_columns\": [], \"order_by_cols\": [], \"adhoc_filters\": [{\"expressionType\": \"SIMPLE\", \"subject\": \"class\", \"operator\": \"==\", \"comparator\": \"\\\"Class 4 Assessment\\\"\", \"clause\": \"WHERE\", \"sqlExpression\": null, \"fromFormData\": true, \"filterOptionName\": \"filter_u130pcgvrxq_j3i39jt4vdm\"}], \"table_timestamp_format\": \"%Y-%m-%d %H:%M:%S\", \"page_length\": 0, \"include_search\": false, \"table_filter\": false, \"align_pn\": false, \"color_pn\": true, \"remote_id\": 12, \"datasource_name\": \"superset_2\", \"schema\": \"superset_2\", \"database_name\": \"ilp\", \"import_time\": 1542005604}",
-                            "datasource_name": "superset_2",
-                            "datasource_id": 1,
-                            "slice_name": "Multiplication - Class 4 - District Level",
-                            "changed_on": {
-                                "__datetime__": "2018-11-13T13:46:27"
-                            },
-                            "changed_by_fk": 1,
-                            "perm": "[ilp].[superset_2](id:1)",
-                            "description": null,
-                            "viz_type": "table",
-                            "datasource_type": "table",
-                            "id": 12,
-                            "created_on": {
-                                "__datetime__": "2018-11-12T12:23:24"
-                            }
-                        }
-                    },
-                    {
-                        "__Slice__": {
-                            "created_by_fk": 1,
-                            "cache_timeout": null,
-                            "params": "{\"datasource\": \"1__table\", \"viz_type\": \"table\", \"slice_id\": 10, \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"groupby\": [\"district\"], \"metrics\": [\"Q12 Performance Percentage\", \"Q13 Performance Percentage\", \"Q16 Performance Percentage\"], \"percent_metrics\": [], \"timeseries_limit_metric\": null, \"row_limit\": 10000, \"include_time\": false, \"order_desc\": true, \"all_columns\": [], \"order_by_cols\": [], \"adhoc_filters\": [{\"expressionType\": \"SIMPLE\", \"subject\": \"class\", \"operator\": \"==\", \"comparator\": \"\\\"Class 4 Assessment\\\"\", \"clause\": \"WHERE\", \"sqlExpression\": null, \"fromFormData\": true, \"filterOptionName\": \"filter_u130pcgvrxq_j3i39jt4vdm\"}], \"table_timestamp_format\": \"%Y-%m-%d %H:%M:%S\", \"page_length\": 0, \"include_search\": false, \"table_filter\": false, \"align_pn\": false, \"color_pn\": true, \"remote_id\": 13, \"datasource_name\": \"superset_2\", \"schema\": \"superset_2\", \"database_name\": \"ilp\", \"import_time\": 1542005604}",
-                            "datasource_name": "superset_2",
-                            "datasource_id": 1,
-                            "slice_name": "Division - Class 4 - District Level",
-                            "changed_on": {
-                                "__datetime__": "2018-11-13T13:46:27"
-                            },
-                            "changed_by_fk": 1,
-                            "perm": "[ilp].[superset_2](id:1)",
-                            "description": null,
-                            "viz_type": "table",
-                            "datasource_type": "table",
-                            "id": 13,
-                            "created_on": {
-                                "__datetime__": "2018-11-12T12:23:24"
-                            }
-                        }
-                    },
-                    {
-                        "__Slice__": {
-                            "created_by_fk": 1,
-                            "cache_timeout": null,
                             "params": "{\"datasource\": \"1__table\", \"viz_type\": \"filter_box\", \"slice_id\": 6, \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"groupby\": [\"academic_year\"], \"metric\": {\"expressionType\": \"SIMPLE\", \"column\": {\"id\": 1, \"column_name\": \"numstudents\", \"verbose_name\": null, \"description\": null, \"expression\": \"\", \"filterable\": false, \"groupby\": false, \"is_dttm\": false, \"type\": \"INTEGER\", \"database_expression\": null, \"python_date_format\": null, \"optionName\": \"_col_numstudents\"}, \"aggregate\": \"AVG\", \"sqlExpression\": null, \"hasCustomLabel\": false, \"fromFormData\": true, \"label\": \"AVG(numstudents)\", \"optionName\": \"metric_95jjhop3p9h_7sbu1li0oew\"}, \"adhoc_filters\": [], \"date_filter\": false, \"instant_filtering\": true, \"show_sqla_time_granularity\": false, \"show_sqla_time_column\": false, \"show_druid_time_granularity\": false, \"show_druid_time_origin\": false, \"remote_id\": 6, \"datasource_name\": \"superset_2\", \"schema\": \"superset_2\", \"database_name\": \"ilp\"}",
                             "datasource_name": "superset_2",
                             "datasource_id": 1,
                             "slice_name": "Academic Year",
                             "changed_on": {
-                                "__datetime__": "2018-11-13T13:46:27"
+                                "__datetime__": "2018-11-25T11:45:53"
                             },
                             "changed_by_fk": 1,
                             "perm": "[ilp].[superset_2](id:1)",
@@ -257,6 +103,182 @@
                             "id": 6,
                             "created_on": {
                                 "__datetime__": "2018-11-02T17:51:34"
+                            }
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "created_by_fk": 1,
+                            "cache_timeout": null,
+                            "params": "{\"datasource\": \"1__table\", \"viz_type\": \"filter_box\", \"slice_id\": 19, \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"groupby\": [\"class\"], \"metric\": {\"expressionType\": \"SIMPLE\", \"column\": {\"id\": 1, \"column_name\": \"numstudents\", \"verbose_name\": null, \"description\": null, \"expression\": \"\", \"filterable\": false, \"groupby\": false, \"is_dttm\": false, \"type\": \"INTEGER\", \"database_expression\": null, \"python_date_format\": null, \"optionName\": \"_col_numstudents\"}, \"aggregate\": \"AVG\", \"sqlExpression\": null, \"hasCustomLabel\": false, \"fromFormData\": true, \"label\": \"AVG(numstudents)\", \"optionName\": \"metric_kqrjtgw24r_bsvle38yjtg\"}, \"adhoc_filters\": [], \"date_filter\": false, \"instant_filtering\": true, \"show_sqla_time_granularity\": false, \"show_sqla_time_column\": false, \"show_druid_time_granularity\": false, \"show_druid_time_origin\": false, \"remote_id\": 19, \"datasource_name\": \"superset_2\", \"schema\": \"superset_2\", \"database_name\": \"ilp\"}",
+                            "datasource_name": "superset_2",
+                            "datasource_id": 1,
+                            "slice_name": "Class Filter",
+                            "changed_on": {
+                                "__datetime__": "2018-11-25T11:45:53"
+                            },
+                            "changed_by_fk": 1,
+                            "perm": "[ilp].[superset_2](id:1)",
+                            "description": null,
+                            "viz_type": "filter_box",
+                            "datasource_type": "table",
+                            "id": 19,
+                            "created_on": {
+                                "__datetime__": "2018-11-21T10:50:06"
+                            }
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "created_by_fk": 1,
+                            "cache_timeout": null,
+                            "params": "{\"datasource\": \"1__table\", \"viz_type\": \"table\", \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"groupby\": [\"district\"], \"metrics\": [\"Q1 Performance Percentage\", \"Q2 Performance Percentage\", \"Q3 Performance Percentage\", \"Q4 Performance Percentage\", \"Q5 Performance Percentage\"], \"percent_metrics\": [], \"timeseries_limit_metric\": null, \"row_limit\": 10000, \"include_time\": false, \"order_desc\": true, \"all_columns\": [], \"order_by_cols\": [], \"adhoc_filters\": [], \"table_timestamp_format\": \"%Y-%m-%d %H:%M:%S\", \"page_length\": 0, \"include_search\": false, \"table_filter\": false, \"align_pn\": false, \"color_pn\": true, \"remote_id\": 20, \"datasource_name\": \"superset_2\", \"schema\": \"superset_2\", \"database_name\": \"ilp\"}",
+                            "datasource_name": "superset_2",
+                            "datasource_id": 1,
+                            "slice_name": "Number Concept - District Level",
+                            "changed_on": {
+                                "__datetime__": "2018-11-25T11:45:53"
+                            },
+                            "changed_by_fk": 1,
+                            "perm": "[ilp].[superset_2](id:1)",
+                            "description": null,
+                            "viz_type": "table",
+                            "datasource_type": "table",
+                            "id": 20,
+                            "created_on": {
+                                "__datetime__": "2018-11-21T10:55:32"
+                            }
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "created_by_fk": 1,
+                            "cache_timeout": null,
+                            "params": "{\"datasource\": \"1__table\", \"viz_type\": \"table\", \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"groupby\": [\"district\"], \"metrics\": [\"Q18 Performance Percentage\", \"Q19 Performance Percentage\", \"Q20 Performance Percentage\"], \"percent_metrics\": [], \"timeseries_limit_metric\": null, \"row_limit\": 10000, \"include_time\": false, \"order_desc\": true, \"all_columns\": [], \"order_by_cols\": [], \"adhoc_filters\": [], \"table_timestamp_format\": \"%Y-%m-%d %H:%M:%S\", \"page_length\": 0, \"include_search\": false, \"table_filter\": false, \"align_pn\": false, \"color_pn\": true, \"remote_id\": 21, \"datasource_name\": \"superset_2\", \"schema\": \"superset_2\", \"database_name\": \"ilp\"}",
+                            "datasource_name": "superset_2",
+                            "datasource_id": 1,
+                            "slice_name": "Shapes - District Level",
+                            "changed_on": {
+                                "__datetime__": "2018-11-25T11:45:53"
+                            },
+                            "changed_by_fk": 1,
+                            "perm": "[ilp].[superset_2](id:1)",
+                            "description": null,
+                            "viz_type": "table",
+                            "datasource_type": "table",
+                            "id": 21,
+                            "created_on": {
+                                "__datetime__": "2018-11-21T10:57:26"
+                            }
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "created_by_fk": 1,
+                            "cache_timeout": null,
+                            "params": "{\"datasource\": \"1__table\", \"viz_type\": \"table\", \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"groupby\": [\"district\"], \"metrics\": [\"Q8 Performance Percentage\", \"Q9 Performance Percentage\", \"Q15 Performance Percentage\"], \"percent_metrics\": [], \"timeseries_limit_metric\": null, \"row_limit\": 10000, \"include_time\": false, \"order_desc\": true, \"all_columns\": [], \"order_by_cols\": [], \"adhoc_filters\": [], \"table_timestamp_format\": \"%Y-%m-%d %H:%M:%S\", \"page_length\": 0, \"include_search\": false, \"table_filter\": false, \"align_pn\": false, \"color_pn\": true, \"remote_id\": 22, \"datasource_name\": \"superset_2\", \"schema\": \"superset_2\", \"database_name\": \"ilp\"}",
+                            "datasource_name": "superset_2",
+                            "datasource_id": 1,
+                            "slice_name": "Subtraction - District Level",
+                            "changed_on": {
+                                "__datetime__": "2018-11-25T11:45:53"
+                            },
+                            "changed_by_fk": 1,
+                            "perm": "[ilp].[superset_2](id:1)",
+                            "description": null,
+                            "viz_type": "table",
+                            "datasource_type": "table",
+                            "id": 22,
+                            "created_on": {
+                                "__datetime__": "2018-11-21T10:58:15"
+                            }
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "created_by_fk": 1,
+                            "cache_timeout": null,
+                            "params": "{\"datasource\": \"1__table\", \"viz_type\": \"table\", \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"groupby\": [\"district\"], \"metrics\": [\"Q12 Performance Percentage\", \"Q13 Performance Percentage\", \"Q16 Performance Percentage\"], \"percent_metrics\": [], \"timeseries_limit_metric\": null, \"row_limit\": 10000, \"include_time\": false, \"order_desc\": true, \"all_columns\": [], \"order_by_cols\": [], \"adhoc_filters\": [], \"table_timestamp_format\": \"%Y-%m-%d %H:%M:%S\", \"page_length\": 0, \"include_search\": false, \"table_filter\": false, \"align_pn\": false, \"color_pn\": true, \"remote_id\": 23, \"datasource_name\": \"superset_2\", \"schema\": \"superset_2\", \"database_name\": \"ilp\"}",
+                            "datasource_name": "superset_2",
+                            "datasource_id": 1,
+                            "slice_name": "Division - District Level",
+                            "changed_on": {
+                                "__datetime__": "2018-11-25T11:45:53"
+                            },
+                            "changed_by_fk": 1,
+                            "perm": "[ilp].[superset_2](id:1)",
+                            "description": null,
+                            "viz_type": "table",
+                            "datasource_type": "table",
+                            "id": 23,
+                            "created_on": {
+                                "__datetime__": "2018-11-21T10:58:56"
+                            }
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "created_by_fk": 1,
+                            "cache_timeout": null,
+                            "params": "{\"datasource\": \"1__table\", \"viz_type\": \"table\", \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"groupby\": [\"district\"], \"metrics\": [\"Q10 Performance Percentage\", \"Q11 Performance Percentage\"], \"percent_metrics\": [], \"timeseries_limit_metric\": null, \"row_limit\": 10000, \"include_time\": false, \"order_desc\": true, \"all_columns\": [], \"order_by_cols\": [], \"adhoc_filters\": [], \"table_timestamp_format\": \"%Y-%m-%d %H:%M:%S\", \"page_length\": 0, \"include_search\": false, \"table_filter\": false, \"align_pn\": false, \"color_pn\": true, \"remote_id\": 24, \"datasource_name\": \"superset_2\", \"schema\": \"superset_2\", \"database_name\": \"ilp\"}",
+                            "datasource_name": "superset_2",
+                            "datasource_id": 1,
+                            "slice_name": "Multiplication - District Level",
+                            "changed_on": {
+                                "__datetime__": "2018-11-25T11:45:53"
+                            },
+                            "changed_by_fk": 1,
+                            "perm": "[ilp].[superset_2](id:1)",
+                            "description": null,
+                            "viz_type": "table",
+                            "datasource_type": "table",
+                            "id": 24,
+                            "created_on": {
+                                "__datetime__": "2018-11-21T11:00:14"
+                            }
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "created_by_fk": 1,
+                            "cache_timeout": null,
+                            "params": "{\"datasource\": \"1__table\", \"viz_type\": \"table\", \"slice_id\": 25, \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"groupby\": [\"district\"], \"metrics\": [\"Q17 Performance Percentage\"], \"percent_metrics\": [], \"timeseries_limit_metric\": null, \"row_limit\": 10000, \"include_time\": false, \"order_desc\": true, \"all_columns\": [], \"order_by_cols\": [], \"adhoc_filters\": [], \"table_timestamp_format\": \"%Y-%m-%d %H:%M:%S\", \"page_length\": 0, \"include_search\": false, \"table_filter\": false, \"align_pn\": false, \"color_pn\": true, \"remote_id\": 25, \"datasource_name\": \"superset_2\", \"schema\": \"superset_2\", \"database_name\": \"ilp\"}",
+                            "datasource_name": "superset_2",
+                            "datasource_id": 1,
+                            "slice_name": "Pattern - District Level",
+                            "changed_on": {
+                                "__datetime__": "2018-11-25T11:45:53"
+                            },
+                            "changed_by_fk": 1,
+                            "perm": "[ilp].[superset_2](id:1)",
+                            "description": null,
+                            "viz_type": "table",
+                            "datasource_type": "table",
+                            "id": 25,
+                            "created_on": {
+                                "__datetime__": "2018-11-21T11:00:50"
+                            }
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "created_by_fk": 1,
+                            "cache_timeout": null,
+                            "params": "{\"datasource\": \"1__table\", \"viz_type\": \"table\", \"url_params\": {}, \"granularity_sqla\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"groupby\": [\"district\"], \"metrics\": [\"Q6 Performance Percentage\", \"Q7 Performance Percentage\", \"Q14 Performance Percentage\"], \"percent_metrics\": [], \"timeseries_limit_metric\": null, \"row_limit\": 10000, \"include_time\": false, \"order_desc\": true, \"all_columns\": [], \"order_by_cols\": [], \"adhoc_filters\": [], \"table_timestamp_format\": \"%Y-%m-%d %H:%M:%S\", \"page_length\": 0, \"include_search\": false, \"table_filter\": false, \"align_pn\": false, \"color_pn\": true, \"remote_id\": 26, \"datasource_name\": \"superset_2\", \"schema\": \"superset_2\", \"database_name\": \"ilp\"}",
+                            "datasource_name": "superset_2",
+                            "datasource_id": 1,
+                            "slice_name": "Addition - District Level",
+                            "changed_on": {
+                                "__datetime__": "2018-11-25T11:45:53"
+                            },
+                            "changed_by_fk": 1,
+                            "perm": "[ilp].[superset_2](id:1)",
+                            "description": null,
+                            "viz_type": "table",
+                            "datasource_type": "table",
+                            "id": 26,
+                            "created_on": {
+                                "__datetime__": "2018-11-21T11:01:37"
                             }
                         }
                     }
