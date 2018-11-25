@@ -16,7 +16,10 @@ user = sys.argv[3]
 passwd = sys.argv[4]
 survey_id = sys.argv[5]
 
-connectionstring = "dbname=%s user=%s password=%s" % (database,user,passwd)
+#comment for dev 
+connectionstring = "host=%s dbname=%s user=%s password=%s" % (host,database,user,passwd)
+#comment for prod
+#connectionstring = "dbname=%s user=%s password=%s" % (database,user,passwd)
 conn = psycopg2.connect(connectionstring)
 cursor = conn.cursor()
 
@@ -42,11 +45,12 @@ conn.commit()
 
 print("created table")
 
-sqlselect = "select distinct state,district,block,cluster,institution_name,institution_id,gp,qgid,class,qname,qid,sequence,sum(yescount),sum(numcount),village,gender,yearmonth,count(distinct agid) as numstudents from (select distinct b0.name as state, b1.name as district, b2.name as block, b3.name as cluster, s.name as institution_name, s.id as institution_id, eb.const_ward_name as gp, qg.id as qgid, qg.name as class, q.question_text as qname, q.id as qid, qgq.sequence as sequence, sum(case ans.answer when 'Yes' then 1 when '1' then 1 when 'No' then 0 when '0' then 0 else 0 end) as yescount, count(ans.answer) as numcount, case when s.village is null then '' else s.village end as village, case when lower(ans1.answer) like 'femal%' then 'Female' when lower(ans1.answer) like  'mal%' then 'Male' else 'Male' end gender,to_char(ag.date_of_visit,'YYYYMM')::int as yearmonth,ag.id as agid from assessments_answergroup_institution ag inner join assessments_answerinstitution ans1 on (ag.id=ans1.answergroup_id and ans1.question_id=291), boundary_boundary b0, boundary_boundary b1, boundary_boundary b2, boundary_boundary b3, schools_institution s, boundary_electionboundary eb, assessments_answerinstitution ans, assessments_questiongroup qg, assessments_question q, assessments_questiongroup_questions qgq where ag.id = ans.answergroup_id and ag.questiongroup_id = qg.id and ans.question_id = q.id and ag.institution_id = s.id and s.admin0_id = b0.id and s.admin1_id = b1.id and s.admin2_id = b2.id and s.admin3_id = b3.id and s.gp_id = eb.id and qg.survey_id = 2 and q.question_text not in ('Gender', 'Class visited') and qgq.questiongroup_id = qg.id and qgq.question_id = q.id group by b0.name, b1.name, b2.name, b3.name, s.village, s.name, s.id, eb.const_ward_name, qg.id, qg.name, ans.answer, q.question_text, qgq.sequence, q.id,ans1.answer , yearmonth,ag.id order by sequence)data group by state,district,block,cluster,institution_name,institution_id,gp,qgid,class,qname,qid,sequence,village,gender, yearmonth"
+sqlselect = "select distinct state,district,block,cluster,institution_name,institution_id,gp,qgid,class,qname,qid,sequence,sum(yescount),sum(numcount),village,gender,yearmonth,count(distinct agid) as numstudents from (select distinct b0.name as state, b1.name as district, b2.name as block, b3.name as cluster, s.name as institution_name, s.id as institution_id, eb.const_ward_name as gp, qg.id as qgid, qg.name as class, q.question_text as qname, q.id as qid, qgq.sequence as sequence, sum(case ans.answer when 'Yes' then 1 when '1' then 1 when 'No' then 0 when '0' then 0 else 0 end) as yescount, count(ans.answer) as numcount, case when s.village is null then '' else s.village end as village, case when lower(ans1.answer) like 'femal%' then 'Female' when lower(ans1.answer) like  'mal%' then 'Male' else 'Male' end gender,to_char(ag.date_of_visit,'YYYYMM')::int as yearmonth,ag.id as agid from assessments_answergroup_institution ag inner join assessments_answerinstitution ans1 on (ag.id=ans1.answergroup_id and ans1.question_id=291), boundary_boundary b0, boundary_boundary b1, boundary_boundary b2, boundary_boundary b3, schools_institution s, boundary_electionboundary eb, assessments_answerinstitution ans, assessments_questiongroup qg, assessments_question q, assessments_questiongroup_questions qgq where ag.id = ans.answergroup_id and ag.questiongroup_id = qg.id and ans.question_id = q.id and ag.institution_id = s.id and s.admin0_id = b0.id and s.admin1_id = b1.id and s.admin2_id = b2.id and s.admin3_id = b3.id and s.gp_id = eb.id and qg.survey_id = "+str(survey_id)+" and q.question_text not in ('Gender', 'Class visited') and qgq.questiongroup_id = qg.id and qgq.question_id = q.id group by b0.name, b1.name, b2.name, b3.name, s.village, s.name, s.id, eb.const_ward_name, qg.id, qg.name, ans.answer, q.question_text, qgq.sequence, q.id,ans1.answer , yearmonth,ag.id order by sequence)data group by state,district,block,cluster,institution_name,institution_id,gp,qgid,class,qname,qid,sequence,village,gender, yearmonth"
 
 data = {}
 cursor.execute(sqlselect,)
 
+print("Got data")
 
 for row in cursor.fetchall():
     state = row[0]
@@ -115,5 +119,7 @@ for qgid in data:
                     sqlinsert = sqlinsert+",'"+question_info["qname"]+"',"+str(question_info["qid"])+","+str(question_info["yescount"])+","+str(question_info["numcount"])
                 sqlinsert = sqlinsert+","+str(yearmonth_info[gender]["total_correctcount"])+","+str(yearmonth_info[gender]["total_numcount"])+","+str(yearmonth_info[gender]["numstudents"])+");"
                 cursor.execute(sqlinsert)
+
+print("Finished inserts")
     
 conn.commit()
